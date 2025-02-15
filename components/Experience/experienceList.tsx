@@ -39,9 +39,11 @@ export default function ExperienceList({ experience }: ExperienceListProps) {
         type={experience.type}
       />
       <p className="text-sm pt-2.5 text-gray-600/80">
-        {experience.description}
+        <HighlightedText
+          text={experience.description}
+          highlights={experience.highlights}
+        />
       </p>
-
 
       {/* Responsibilities */}
       <div className="flex flex-col pt-2.5">
@@ -73,13 +75,6 @@ export default function ExperienceList({ experience }: ExperienceListProps) {
             </Card>
           ))}
         </div>
-      </div>
-
-      {/* Locations and url */}
-
-      <div className="flex flex-col pt-2.5">
-        <p className="text-sm font-bold">Locations</p>
-        <p className="text-sm text-gray-600/80">{experience.location}</p>
       </div>
     </div>
   );

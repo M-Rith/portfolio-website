@@ -11,8 +11,15 @@ export default function ExperienceComponent() {
         description="There are list of my work experiences that I have been doing"
       />
 
-      {ExperiencesData.map((experience) => (
-        <div className="py-3 md:py-4 lg:py-5 flex flex-col" key={experience.id}>
+      {ExperiencesData.map((experience, index) => (
+        <div
+          key={experience.id}
+          className={`flex flex-col  ${
+            index !== ExperiencesData.length - 1
+              ? "py-3 md:py-4 lg:py-5"
+              : "pt-3 md:pt-4 lg:pt-5"
+          }`}
+        >
           <ExperienceList key={experience.id} experience={experience} />
         </div>
       ))}

@@ -28,14 +28,18 @@ const HighlightedText = ({
 
 export default function EducationComponent() {
   return (
-    <div>
-      <Header
-        title="My Education"
-        description="There are list of my education"
-      />
+    <section className="education-section">
+      <Header title="Education" description="There are list of my education" />
 
-      {EducationData.map((education) => (
-        <div key={education.id} className="flex flex-col py-3 md:py-4 lg:py-5">
+      {EducationData.map((education, index) => (
+        <div
+          key={education.id}
+          className={`flex flex-col  ${
+            index !== EducationData.length - 1
+              ? "py-3 md:py-4 lg:py-5"
+              : "pt-3 md:pt-4 lg:pt-5"
+          }`}
+        >
           <Title
             title={education.school}
             description={education.degree}
@@ -49,6 +53,6 @@ export default function EducationComponent() {
           </p>
         </div>
       ))}
-    </div>
+    </section>
   );
 }
