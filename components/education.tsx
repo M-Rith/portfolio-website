@@ -36,7 +36,7 @@ export default function EducationComponent() {
 
       {EducationData.map((education) => (
         <div key={education.id} className="flex flex-col py-3 md:py-4 lg:py-5">
-         <Title
+          <Title
             title={education.school}
             description={education.degree}
             date={education.dates}

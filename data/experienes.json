@@ -4,36 +4,48 @@
       "company" : "Bikay, Cambodia",
       "position" : "Full Stack Developer",
       "date": "Oct 2022 - PRESENT",
-      "description" : "BiKay is a global IT start-up (French Tech Cambodge community), founded in 2013 by 2 French IT engineers located in Phnom Penh. Bikay provides IT services & consulting to their clients & partners (outsourcing with its clients in France) in web development, mobile/web applications, and business solutions. With its agile development methodology and 10 years of experience in web development and IT projects, Bikay's main objective is to create successful and intuitive products to help their clients in their digital transformation. Bikay works with a wide spectrum of clients, from startups to companies and governments, to build and deliver digital products that solve their business challenges in record time. We helped major clients such as Monoprix (French leader in retail) and donors (UNDP) on their projects to deliver products focused on their user experiences. Bikay has implemented more than 200 projects successfully and is able to pull this off thanks to its deep expertise in web, mobile and data technologies and its unique approach of agile development",
+      "description" : "BiKay is a global IT start-up (French Tech Cambodge community), founded in 2013 by 2 French IT engineers located in Phnom Penh. Bikay provides IT services & consulting to their clients & partners (outsourcing with its clients in France) in web development, mobile/web applications, and business solutions.",
       "type" : "Full Time",
       "location" : "Phnom Penh, Cambodia",
       "url" : "https://bikay.com",
       "responsible": [
-         "Developing and maintaining web applications",
-         "Collaborating with cross-functional teams to define, design, and ship new features",
-         "Optimizing application performance for a better user experience"
+         "Develop and Maintain Mobile Apps : Build and manage mobile applications for Android and iOS using React Native and MobX.",
+         "Website Development and Maintenance : Create and maintain websites using WordPress and Next.js.",
+         "Basic UX/UI Design : Design foundational UX/UI elements to enhance user experience.",
+         "Weekly Release Management : Oversee Mobile Application / Website Application releases on a weekly basis and handle any hot-fixes as needed.",
+         "Bug Fixing and Performance Optimization : Address bugs and work to improve overall application performance.",
+         "Facilitate Scrum and Collaboration : Lead daily scrum meetings, clean code sessions, and pair programming with fellow developers.",
+         "Code Review : Conduct code reviews to ensure code quality and maintainability.",
+         "Cross-Functional Team Collaboration : Partner with a diverse team to define and release new features across mobile apps, web, and backend applications in an agile setting."
       ],
       "technologyStack" : [
          "React Native",
-         "NextJs",
+         "Next.js",
          "Tailwind CSS",
          "TypeScript",
          "React",
-         "Wordpress"
-
+         "Wordpress",
+         "Shadcn/UI",
+         "MobX",
+         "Zustand"
       ],
       "highlights": [
-         "Developing and maintaining web applications",
-         "Collaborating with cross-functional teams to define, design, and ship new features",
-         "Optimizing application performance for a better user experience"
+         "Develop and Maintain Mobile Apps",
+         "Website Development and Maintenance",
+         "Basic UX/UI Design",
+         "Weekly Release Management",
+         "Bug Fixing and Performance Optimization",
+         "Facilitate Scrum and Collaboration",
+         "Cross-Functional Team Collaboration",
+         "Code Review"
       ]
    },
    {
       "id" : 2,
       "company" : "Elephant Visual Company",
-      "position" : "Software Engineer",
+      "position" : "Lead Mobile Developer",
       "date": "May 2023 - Nov 2024",
-      "description" : "vkClub App is an mobile application for customers of vKirirom Pine Resort to make their stay more pleasant & memorable. This app connects you with your friends and family members instantly, connect with our service operators at any time, experience with digitalize map around Kirirom area, guarantee your safety with the emergency SOS button and keep up with the latest news and current events in vKirirom Pine Resort.",
+      "description" : "Elephant is a visual company established through Kirirom Institute of Technology's internship program. It is responsible for developing mobile applications and systems for both Kirirom Institute of Technology and vKirirom Pine Resort.",
       "type" : "Internship",
       "location" : "Phnom Penh, Cambodia",
       "url" : "https://vkclub.com",
@@ -68,13 +80,10 @@
          "Optimizing application performance for a better user experience"
       ],
       "technologyStack": [
-         "Next.JS",
+         "Next.js",
          "Tailwind CSS",
          "TypeScript",
-         "React",
-         "Node.js",
-         "Express",
-         "MongoDB"
+         "Shadcn/UI"
       ],
       "highlights": [
          "Developing and maintaining web applications",
