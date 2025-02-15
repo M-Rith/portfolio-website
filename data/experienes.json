@@ -2,7 +2,7 @@
    {
       "id" : 1,
       "company" : "Bikay, Cambodia",
-      "position" : "Software Engineer",
+      "position" : "Full Stack Developer",
       "date": "Oct 2022 - PRESENT",
       "description" : "BiKay is a global IT start-up (French Tech Cambodge community), founded in 2013 by 2 French IT engineers located in Phnom Penh. Bikay provides IT services & consulting to their clients & partners (outsourcing with its clients in France) in web development, mobile/web applications, and business solutions. With its agile development methodology and 10 years of experience in web development and IT projects, Bikay's main objective is to create successful and intuitive products to help their clients in their digital transformation. Bikay works with a wide spectrum of clients, from startups to companies and governments, to build and deliver digital products that solve their business challenges in record time. We helped major clients such as Monoprix (French leader in retail) and donors (UNDP) on their projects to deliver products focused on their user experiences. Bikay has implemented more than 200 projects successfully and is able to pull this off thanks to its deep expertise in web, mobile and data technologies and its unique approach of agile development",
       "type" : "Full Time",
@@ -14,13 +14,13 @@
          "Optimizing application performance for a better user experience"
       ],
       "technologyStack" : [
+         "React Native",
+         "NextJs",
+         "Tailwind CSS",
+         "TypeScript",
          "React",
-         "Node.js",
-         "Express",
-         "MongoDB",
-         "PostgreSQL",
-         "Docker",
-         "Kubernetes"
+         "Wordpress"
+
       ],
       "highlights": [
          "Developing and maintaining web applications",
