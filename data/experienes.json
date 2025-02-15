@@ -9,7 +9,7 @@
       "location" : "Phnom Penh, Cambodia",
       "url" : "https://bikay.com",
       "responsible": [
-         "Develop and Maintain Mobile Apps : Build and manage mobile applications for Android and iOS using React Native and MobX.",
+         "Develop and Maintain Mobile Applications : Build and manage mobile applications for Android and iOS using React Native and MobX.",
          "Website Development and Maintenance : Create and maintain websites using WordPress and Next.js.",
          "Basic UX/UI Design : Design foundational UX/UI elements to enhance user experience.",
          "Weekly Release Management : Oversee Mobile Application / Website Application releases on a weekly basis and handle any hot-fixes as needed.",
@@ -50,7 +50,8 @@
       "location" : "Phnom Penh, Cambodia",
       "url" : "https://vkclub.com",
       "responsible": [
-         "Developing and maintaining web applications",
+         "Develop and Maintain Mobile Applications : Build and manage mobile application for Android and IOS using Flutter and Firebase.",
+         "Basic UX/UI Design : Design foundational UX/UI elements to enhance user experience.",
          "Collaborating with cross-functional teams to define, design, and ship new features",
          "Optimizing application performance for a better user experience"
       ],
@@ -84,6 +85,7 @@
          "Tailwind CSS",
          "TypeScript",
          "Shadcn/UI"
+
       ],
       "highlights": [
          "Developing and maintaining web applications",
