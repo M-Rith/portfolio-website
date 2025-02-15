@@ -1,0 +1,172 @@
+[
+   {
+      "id" : 1,
+      "company" : "Bikay, Cambodia",
+      "position" : "Software Engineer",
+      "date": "Oct 2022 - PRESENT",
+      "description" : "BiKay is a global IT start-up (French Tech Cambodge community), founded in 2013 by 2 French IT engineers located in Phnom Penh. Bikay provides IT services & consulting to their clients & partners (outsourcing with its clients in France) in web development, mobile/web applications, and business solutions. With its agile development methodology and 10 years of experience in web development and IT projects, Bikay's main objective is to create successful and intuitive products to help their clients in their digital transformation. Bikay works with a wide spectrum of clients, from startups to companies and governments, to build and deliver digital products that solve their business challenges in record time. We helped major clients such as Monoprix (French leader in retail) and donors (UNDP) on their projects to deliver products focused on their user experiences. Bikay has implemented more than 200 projects successfully and is able to pull this off thanks to its deep expertise in web, mobile and data technologies and its unique approach of agile development",
+      "type" : "Full Time",
+      "location" : "Phnom Penh, Cambodia",
+      "url" : "https://bikay.com",
+      "responsible": [
+         "Developing and maintaining web applications",
+         "Collaborating with cross-functional teams to define, design, and ship new features",
+         "Optimizing application performance for a better user experience"
+      ],
+      "technologyStack" : [
+         "React",
+         "Node.js",
+         "Express",
+         "MongoDB",
+         "PostgreSQL",
+         "Docker",
+         "Kubernetes"
+      ],
+      "highlights": [
+         "Developing and maintaining web applications",
+         "Collaborating with cross-functional teams to define, design, and ship new features",
+         "Optimizing application performance for a better user experience"
+      ]
+   },
+   {
+      "id" : 2,
+      "company" : "Elephant Visual Company",
+      "position" : "Software Engineer",
+      "date": "May 2023 - Nov 2024",
+      "description" : "vkClub App is an mobile application for customers of vKirirom Pine Resort to make their stay more pleasant & memorable. This app connects you with your friends and family members instantly, connect with our service operators at any time, experience with digitalize map around Kirirom area, guarantee your safety with the emergency SOS button and keep up with the latest news and current events in vKirirom Pine Resort.",
+      "type" : "Internship",
+      "location" : "Phnom Penh, Cambodia",
+      "url" : "https://vkclub.com",
+      "responsible": [
+         "Developing and maintaining web applications",
+         "Collaborating with cross-functional teams to define, design, and ship new features",
+         "Optimizing application performance for a better user experience"
+      ],
+      "technologyStack" : [
+         "Flutter",
+         "Firebase",
+         "Dart"
+      ],
+      "highlights": [
+         "Developing and maintaining web applications",
+         "Collaborating with cross-functional teams to define, design, and ship new features",
+         "Optimizing application performance for a better user experience"
+      ]
+   },
+   {
+      "id" : 3,
+      "company": "Shuttle Bus Visual Company",
+      "position": "Software Engineer",
+      "date": "Feb 2023 - Oct 2024",
+      "description": "I was a software engineer at Shuttle Bus Visual Company",
+      "type": "Full Time",
+      "location": "Phnom Penh, Cambodia",
+      "url": "https://shuttlebus.com",
+      "responsible": [
+         "Developing and maintaining web applications",
+         "Collaborating with cross-functional teams to define, design, and ship new features",
+         "Optimizing application performance for a better user experience"
+      ],
+      "technologyStack": [
+         "Next.JS",
+         "Tailwind CSS",
+         "TypeScript",
+         "React",
+         "Node.js",
+         "Express",
+         "MongoDB"
+      ],
+      "highlights": [
+         "Developing and maintaining web applications",
+         "Collaborating with cross-functional teams to define, design, and ship new features",
+         "Optimizing application performance for a better user experience"
+      ]
+   },
+   {
+      "id" : 4,
+      "company" : "VGo Visual Company",
+      "position" : "Software Engineer",
+      "date": "Sep 2022 - Nov 2022",
+      "description" : "I was a software engineer at VGo Visual Company",
+      "type" : "Full Time",
+      "location" : "Phnom Penh, Cambodia",
+      "url" : "https://vgo.com",
+      "responsible": [
+         "Developing and maintaining web applications",
+         "Collaborating with cross-functional teams to define, design, and ship new features",
+         "Optimizing application performance for a better user experience"
+      ],
+      "technologyStack" : [
+         "Next.JS",
+         "Tailwind CSS",
+         "TypeScript",
+         "React",
+         "Node.js",
+         "Express",
+         "MongoDB"
+      ],
+      "highlights": [
+         "Developing and maintaining web applications",
+         "Collaborating with cross-functional teams to define, design, and ship new features",
+         "Optimizing application performance for a better user experience"
+      ]
+   },
+   {
+      "id" : 5,
+      "company" : "Japanese Client",
+      "position" : "Software Engineer",
+      "date": "Jul 2022 - Sep 2022",
+      "description" : "I was a software engineer at Japanese Client",
+      "type" : "Full Time",
+      "location" : "Phnom Penh, Cambodia",
+      "url" : "https://japaneseclient.com",
+      "responsible": [
+         "Developing and maintaining web applications",
+         "Collaborating with cross-functional teams to define, design, and ship new features",
+         "Optimizing application performance for a better user experience"
+      ],
+      "technologyStack" : [
+         "Next.JS",
+         "Tailwind CSS",
+         "TypeScript",
+         "React",
+         "Node.js",
+         "Express",
+         "MongoDB"
+      ],
+      "highlights": [
+         "Developing and maintaining web applications",
+         "Collaborating with cross-functional teams to define, design, and ship new features",
+         "Optimizing application performance for a better user experience"
+      ]
+   },
+   {
+      "id" : 6,
+      "company" : "Flib Visual Company",
+      "position" : "Software Engineer",
+      "date": "Aug 2022 - Dec 2022",
+      "description" : "I was a software engineer at Flib Visual Company",
+      "type" : "Full Time",
+      "location" : "Phnom Penh, Cambodia",
+      "url" : "https://flib.com",
+      "responsible": [
+         "Developing and maintaining web applications",
+         "Collaborating with cross-functional teams to define, design, and ship new features",
+         "Optimizing application performance for a better user experience"
+      ],
+      "technologyStack" : [
+         "Next.JS",
+         "Tailwind CSS",
+         "TypeScript",
+         "React",
+         "Node.js",
+         "Express",
+         "MongoDB"
+      ],
+      "highlights": [
+         "Developing and maintaining web applications",
+         "Collaborating with cross-functional teams to define, design, and ship new features",
+         "Optimizing application performance for a better user experience"
+      ]
+   }
+]
