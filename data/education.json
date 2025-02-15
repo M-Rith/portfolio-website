@@ -1,20 +1,25 @@
 [
    {
+      "id": 1,
       "school": "Kirirom Institute of Technology",
       "degree": "Bachelor of Software Engineering",
       "dates": "March 2021 - Present",
-      "description": "Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world  "
+      "description": "This diploma provided a comprehensive foundation in software engineering, covering programming languages, algorithms, and software development principles. It equipped me with the skills to build robust and scalable applications. Throughout my studies, I gained hands-on experience through internships within the university, working on real-world projects that involved software design, development, and deployment. Additionally, I collaborated on client projects, applying industry best practices to deliver functional solutions that met business and user requirements. These experiences strengthened my problem-solving abilities and enhanced my understanding of software engineering in professional environments.",
+      "highlights": ["Software engineering", "Programming languages", "Algorithms", "Software development principles", "Software design", "Software development", "internships", "hands-on experience", "client projects", "industry best practices", "professional environments"]
    },
    {
+      "id": 2,
       "school": "TUX Global Institute",
       "degree": "Professional Course",
       "dates": "March 2022 - March 2023",
-"description": "Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world  "
+      "description": "This course provided a comprehensive foundation in Web application development, mobile application development and UX/UI design covering programming languages, algorithms, and software engineering principles. It equipped me with the skills to build robust and scalable applications. Graduating with honors, I demonstrated a strong academic record, technical proficiency, and a commitment to excellence in software engineering.",
+      "highlights": ["Web application development", "Mobile application development", "UX/UI design", "Graduating with honors"]
    },
    {
+      "id": 3,
       "school": "Preah Sisowath High School",
       "degree": "High School Diploma",
       "dates": "2015 - 2019",
-      "description": "Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world Hello world  "
+      "description": "This diploma signifies proficiency in core academic subjects, including Mathematics, Science, English, and Social Studies. It reflects a well-rounded education, critical thinking skills, and the ability to apply knowledge in practical and theoretical contexts."
    }
 ]
