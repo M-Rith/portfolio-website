@@ -5,6 +5,7 @@ import FooterComponent from "@/components/footer";
 export default function Home() {
   return (
     <div>
+      <div className="h-screen"></div>
       <ProductsComponent />
       <hr className="my-10" />
       <ExperienceComponent />
