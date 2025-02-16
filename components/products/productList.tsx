@@ -1,6 +1,7 @@
 import React from "react";
 import { ProductTypes } from "@/types/products.type";
 import { Card, CardHeader, CardTitle, CardDescription } from "../ui/card";
+import Link from "next/link";
 
 interface ProductListProps {
   product: ProductTypes;
@@ -30,9 +31,12 @@ export default function ProductList({ product }: ProductListProps) {
                 {product.description}
               </p>
               <div className="flex flex-row pt-2.5 items-end justify-end">
-                <h1 className="text-sm font-bold cursor-pointer hover:underline">
+                <Link
+                  className="text-sm font-bold cursor-pointer hover:underline"
+                  href={`/products/${product.id}`}
+                >
                   Read more &gt;
-                </h1>
+                </Link>
               </div>
             </div>
           </CardDescription>
