@@ -1,7 +1,7 @@
 import React from "react";
 import Title from "./ui/header";
 import ExperiencesData from "@/data/experienes.json";
-import ExperienceList from "./Experience/experienceList";
+import ExperienceList from "./experiences/experienceList";
 
 export default function ExperienceComponent() {
   return (
