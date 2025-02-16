@@ -29,7 +29,10 @@ const HighlightedText = ({
 export default function EducationComponent() {
   return (
     <section className="education-section">
-      <Header title="Education" description="There are list of my education" />
+      <Header
+        title="Education"
+        description="Here is a detailed list of my educational background and academic qualifications."
+      />
 
       {EducationData.map((education, index) => (
         <div

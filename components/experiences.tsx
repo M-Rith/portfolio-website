@@ -8,7 +8,7 @@ export default function ExperienceComponent() {
     <div>
       <Title
         title="Work Experiences"
-        description="There are list of my work experiences that I have been doing"
+        description="Here are the key responsibilities and tasks I have been handling in my work experience."
       />
 
       {ExperiencesData.map((experience, index) => (
