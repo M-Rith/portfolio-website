@@ -50,8 +50,8 @@
    {
       "id" : 2,
       "name": "Shuttle Bus Booking System",
-      "description": "The Shuttle Bus Booking System is a web application that allows students, lecturers, and staff to book shuttle bus services between Phnom Penh and vKirirom Pine Resort. Bookings are based on the available bus schedule provided by the admin.",
-      "longDescription": "The system is designed to provide a convenient and efficient way for students, lecturers, and staff to book shuttle bus services between Phnom Penh and vKirirom Pine Resort. It offers a user-friendly interface for managing bookings, tracking bus schedules, and ensuring a smooth transportation experience.",
+      "description": "The Shuttle Bus Booking System is a web application that allows students, lecturers, and staff to book shuttle bus services between Phnom Penh and vKirirom Pine Resort.",
+      "longDescription": "The system is designed to provide a convenient and efficient way for students, lecturers, and staff to book and manage shuttle bus services between Phnom Penh and vKirirom Pine Resort. It features a user-friendly interface that allows users to easily make reservations, track real-time bus schedules, and receive notifications about their trips. Additionally, the system ensures a smooth and organized transportation experience by providing detailed route information, bus availability updates, and driver details. By streamlining the booking process and enhancing accessibility, this solution helps improve the overall efficiency and reliability of shuttle bus services for the academic community.",
       "features" : [
          "Booking system",
          "Bus schedule management",
@@ -84,13 +84,20 @@
    {
       "id" : 3,
       "name": "Shuttle Bus Admin System",
-      "description": "Shuttle bus ",
-      "longDescription": "Shuttle Bus Admin System is a web application that allows users to manage their shuttle bus booking services.",
+      "description": "Shuttle bus admin system is a web application that allows residential admin to manage shuttle bus services.",
+      "longDescription": "The system is designed to provide a convenient and efficient way for residential administrators to manage shuttle bus services. It enables seamless handling of schedules, routes, and buses, including detailed information about bus drivers. Additionally, the system facilitates the management of user accounts, including students, staff, and administrators, while also tracking user tickets, trip history, and overall service records. This comprehensive solution ensures smooth operation and enhances the efficiency of shuttle bus services within residential communities.",
       "technologyStack" : [
          "Next.Js",
          "Tailwind CSS",
-         "TypeScript",
          "Figma"
+      ],
+      "features": [
+         "Schedule management",
+         "Route management",
+         "Bus management",
+         "User management",
+         "Ticket management",
+         "History management"
       ],
       "images" : [
          "dwadawd",
@@ -106,12 +113,21 @@
    {
       "id" : 4,
       "name": "VkClub Mobile Application",
-      "description": "VkClub is a mobile application that allows users to manage their mobile phone services.",
-      "longDescription": "VkClub is a mobile application that allows users to manage their mobile phone services.",
+      "description": "VkClub mobile application is a mobile application for customers of vKirirom Pine Resort to make their stay more comfortable and enjoyable.",
+      "longDescription": "The vkClub App is a mobile application designed to enhance the experience of customers at vKirirom Pine Resort, making their stay more convenient and enjoyable. It allows users to stay connected with friends and family instantly, communicate with resort service operators anytime, and navigate the area with a digital map. The app also includes an emergency SOS button for added safety and keeps users updated with the latest news and events at the resort. Additionally, customers can top up money within the app to use for resort services and purchases, with the added benefit of exclusive discounts and special offers.",
       "technologyStack" : [
          "Flutter",
          "Firebase",
          "Figma"
+      ],
+      "features": [
+         "Notification",
+         "Emergency SOS",
+         "Digital map",
+         "Top-up feature",
+         "News and events",
+         "QR payment",
+         "Payment history"
       ],
       "images" : [
          "dwadawd",
