@@ -1,0 +1,127 @@
+[
+   {
+      "id" : 1,
+      "name": "KT Mobile App",
+      "description": "KT Mobile App was developed for the East-West Seed Knowledge Transfer (EWS-KT), a non-profit corporate foundation tied with the East-West Seed Group",
+      "longDescription": "The app is designed to enhance the abilities of overseeing farmer training programs, making crucial agricultural knowledge more accessible and enhancing farmers' business knowledge. It's a step forward to support smallholder farmers and increase the availability of safe vegetables.",
+      "features": [
+         "Training management",
+         "Training Report",
+         "Farmer managements",
+         "Farmer Report",
+         "Demo Management",
+         "Demo Report",
+         "Homegarden Management",
+         "Homegarden Report",
+         "Field Day Management",
+         "Field Day Report",
+         "Market survey insight",
+         "Market survey Report",
+         "Offline mode",
+         "Notification",
+         "Synchronization"
+      ],
+      "technologyStack" : [
+         "React Native",
+         "MobX"
+      ],
+      "images" : [
+         "dwadawd",
+         "iadwwadaw"
+      ],
+      "url" : [
+         {
+            "name" : "Google Play",
+            "url" : "https://play.google.com/store/apps/details?id=com.kt.mobile"
+         },
+         {
+            "name" : "App Store",
+            "url" : "https://apps.apple.com/app/id1234567890"
+         }
+      ],
+      "highlight": [
+         "Training management",
+         "Farmer managements",
+         "Demo Management",
+         "Homegarden Management",
+         "Field Day Management"
+      ]
+   },
+   {
+      "id" : 2,
+      "name": "Shuttle Bus Booking System",
+      "description": "The Shuttle Bus Booking System is a web application that allows students, lecturers, and staff to book shuttle bus services between Phnom Penh and vKirirom Pine Resort. Bookings are based on the available bus schedule provided by the admin.",
+      "longDescription": "The system is designed to provide a convenient and efficient way for students, lecturers, and staff to book shuttle bus services between Phnom Penh and vKirirom Pine Resort. It offers a user-friendly interface for managing bookings, tracking bus schedules, and ensuring a smooth transportation experience.",
+      "features" : [
+         "Booking system",
+         "Bus schedule management",
+         "Ticket management",
+         "History management"
+      ],
+      "technologyStack" : [
+         "Next.Js",
+         "Tailwind CSS",
+         "Shadcn/UI",
+         "Figma"
+      ],
+      "images" : [
+         "dwadawd",
+         "iadwwadaw"
+      ],
+      "url" : [
+         {
+            "name" : "Website",
+            "url" : "https://shuttlebus.vku.edu.kh/"
+         }
+      ],
+      "highlight": [
+         "Booking system",
+         "Bus schedule management",
+         "Ticket management",
+         "History management"
+      ]
+   },
+   {
+      "id" : 3,
+      "name": "Shuttle Bus Admin System",
+      "description": "Shuttle bus ",
+      "longDescription": "Shuttle Bus Admin System is a web application that allows users to manage their shuttle bus booking services.",
+      "technologyStack" : [
+         "Next.Js",
+         "Tailwind CSS",
+         "TypeScript",
+         "Figma"
+      ],
+      "images" : [
+         "dwadawd",
+         "iadwwadaw"
+      ],
+      "url" : [
+         {
+            "name" : "Google Play",
+            "url" : "https://play.google.com/store/apps/details?id=com.kt.mobile"
+         }
+      ]
+   },
+   {
+      "id" : 4,
+      "name": "VkClub Mobile Application",
+      "description": "VkClub is a mobile application that allows users to manage their mobile phone services.",
+      "longDescription": "VkClub is a mobile application that allows users to manage their mobile phone services.",
+      "technologyStack" : [
+         "Flutter",
+         "Firebase",
+         "Figma"
+      ],
+      "images" : [
+         "dwadawd",
+         "iadwwadaw"
+      ],
+      "url" : [
+         {
+            "name" : "Google Play",
+            "url" : "https://play.google.com/store/apps/details?id=com.kt.mobile"
+         }
+      ]
+   }
+]
