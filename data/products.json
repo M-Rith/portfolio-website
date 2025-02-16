@@ -2,7 +2,7 @@
    {
       "id" : 1,
       "name": "KT Mobile App",
-      "description": "KT Mobile App was developed for the East-West Seed Knowledge Transfer (EWS-KT), a non-profit corporate foundation tied with the East-West Seed Group",
+      "description": "KT Mobile App was developed for the East-West Seed Knowledge Transfer (EWS-KT), a non-profit corporate foundation tied with the East-West Seed Group.",
       "longDescription": "The app is designed to enhance the abilities of overseeing farmer training programs, making crucial agricultural knowledge more accessible and enhancing farmers' business knowledge. It's a step forward to support smallholder farmers and increase the availability of safe vegetables.",
       "features": [
          "Training management",
@@ -40,6 +40,7 @@
          }
       ],
       "highlight": [
+         "developed",
          "Training management",
          "Farmer managements",
          "Demo Management",
