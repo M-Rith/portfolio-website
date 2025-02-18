@@ -2,10 +2,12 @@ import EducationComponent from "@/components/education";
 import ExperienceComponent from "@/components/experiences";
 import ProductsComponent from "@/components/products";
 import FooterComponent from "@/components/footer";
+import WelcomeComponent from "@/components/welcome";
 export default function Home() {
   return (
     <div>
-      <div className="h-screen"></div>
+      <WelcomeComponent />
+      <hr className="my-10" />
       <ProductsComponent />
       <hr className="my-10" />
       <ExperienceComponent />
