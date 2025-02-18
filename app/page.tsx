@@ -1,3 +1,4 @@
+"use client";
 import EducationComponent from "@/components/education";
 import ExperienceComponent from "@/components/experiences";
 import ProductsComponent from "@/components/products";
