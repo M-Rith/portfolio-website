@@ -12,7 +12,7 @@ export default function ProductsComponent() {
       viewport={{ margin: "-100px" }}
       transition={{ duration: 0.5 }}
       id="products"
-      className="products-section overflow-y-hidden"
+      className="products-section"
     >
       <motion.div
         initial={{ opacity: 0, y: -50 }}
