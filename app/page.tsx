@@ -7,6 +7,7 @@ import WelcomeComponent from "@/components/welcome";
 export default function Home() {
   return (
     <div>
+      <div className="h-screen"></div>
       <WelcomeComponent />
       <hr className="my-10" />
       <ProductsComponent />
