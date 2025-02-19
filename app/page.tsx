@@ -6,8 +6,7 @@ import FooterComponent from "@/components/footer";
 import WelcomeComponent from "@/components/welcome";
 export default function Home() {
   return (
-    <div>
-      <div className="h-screen"></div>
+    <div className="overflow-x-hidden">
       <WelcomeComponent />
       <hr className="my-10" />
       <ProductsComponent />
