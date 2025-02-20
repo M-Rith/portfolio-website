@@ -18,9 +18,9 @@ export default async function BreadcrumbSlot({
     (product: ProductTypes) => product.id === parseInt(id)
   );
 
+
   return (
     <BreadcrumbList>
-      {" "}
       <BreadcrumbItem>
         <BreadcrumbLink href="/">Home</BreadcrumbLink>
       </BreadcrumbItem>
@@ -30,7 +30,9 @@ export default async function BreadcrumbSlot({
       </BreadcrumbItem>
       <BreadcrumbSeparator />
       <BreadcrumbItem>
-        <BreadcrumbPage className="capitalize">{product?.name}</BreadcrumbPage>
+        <BreadcrumbPage className="capitalize">
+          {product ? product?.name : id}
+        </BreadcrumbPage>
       </BreadcrumbItem>
     </BreadcrumbList>
   );
