@@ -2,7 +2,7 @@ import React from "react";
 import { ProductTypes } from "@/types/products.type";
 import { Card, CardHeader, CardTitle, CardDescription } from "../ui/card";
 import Link from "next/link";
-
+import TechnologyCard from "../ui/technologyCard";
 interface ProductListProps {
   product: ProductTypes;
 }
@@ -19,12 +19,7 @@ export default function ProductList({ product }: ProductListProps) {
             <div className="flex flex-col">
               <div className="flex flex-row flex-wrap gap-2 pt-2.5">
                 {product.technologyStack.map((technology) => (
-                  <Card
-                    key={technology}
-                    className="justify-center flex flex-row items-center px-3 py-1"
-                  >
-                    <p className="text-xs">{technology}</p>
-                  </Card>
+                  <TechnologyCard key={technology} technology={technology} />
                 ))}
               </div>
               <p className="text-sm text-gray-600/80 pt-2.5">

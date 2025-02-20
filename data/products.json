@@ -5,8 +5,6 @@
       "description": "KT Mobile App was developed for the East-West Seed Knowledge Transfer (EWS-KT), a non-profit corporate foundation tied with the East-West Seed Group.",
       "longDescription": "The app is designed to enhance the abilities of overseeing farmer training programs, making crucial agricultural knowledge more accessible and enhancing farmers' business knowledge. It's a step forward to support smallholder farmers and increase the availability of safe vegetables.",
       "features": [
-         "Training management",
-         "Training Report",
          "Farmer managements",
          "Farmer Report",
          "Demo Management",
@@ -15,6 +13,8 @@
          "Homegarden Report",
          "Field Day Management",
          "Field Day Report",
+         "Training management",
+         "Training Report",
          "Market survey insight",
          "Market survey Report",
          "Offline mode",
@@ -113,7 +113,88 @@
    },
    {
       "id" : 4,
-      "name": "VkClub Mobile Application",
+      "name": "VKClub Mobile Application",
+      "description": "VkClub mobile application is a mobile application for customers of vKirirom Pine Resort to make their stay more comfortable and enjoyable.",
+      "longDescription": "The vkClub App is a mobile application designed to enhance the experience of customers at vKirirom Pine Resort, making their stay more convenient and enjoyable. It allows users to stay connected with friends and family instantly, communicate with resort service operators anytime, and navigate the area with a digital map. The app also includes an emergency SOS button for added safety and keeps users updated with the latest news and events at the resort. Additionally, customers can top up money within the app to use for resort services and purchases, with the added benefit of exclusive discounts and special offers.",
+      "technologyStack" : [
+         "Flutter",
+         "Firebase",
+         "Figma"
+      ],
+      "features": [
+         "Notification",
+         "Emergency SOS",
+         "Digital map",
+         "Top-up feature",
+         "News and events",
+         "QR payment",
+         "Payment history"
+      ],
+      "images" : [
+         "dwadawd",
+         "iadwwadaw"
+      ],
+      "url" : [
+         {
+            "name" : "Google Play",
+            "url" : "https://play.google.com/store/apps/details?id=com.kt.mobile"
+         }
+      ]
+   },
+   {
+      "id": 5,
+      "name": "East West Seed",
+      "description": "East West Seed was developed for the East-West Seed Knowledge Transfer (EWS-KT), a non-profit corporate foundation tied with the East-West Seed Group.",
+      "longDescription": "The app is designed to enhance the abilities of overseeing farmer training programs, making crucial agricultural knowledge more accessible and enhancing farmers' business knowledge. It's a step forward to support smallholder farmers and increase the availability of safe vegetables.",
+      "features": [
+         "Farmer managements",
+         "Farmer Report",
+         "Demo Management",
+         "Demo Report",
+         "Homegarden Management",
+         "Homegarden Report",
+         "Field Day Management",
+         "Field Day Report",
+         "Training management",
+         "Training Report",
+         "Market survey insight",
+         "Market survey Report",
+         "Offline mode",
+         "Notification",
+         "Synchronization"
+      ],
+      "technologyStack" : [
+         "React Native",
+         "MobX"
+      ],
+      "images" : [
+         "dwadawd",
+         "iadwwadaw"
+      ],
+      "url" : [
+         {
+            "name" : "Google Play",
+            "url" : "https://play.google.com/store/apps/details?id=com.kt.mobile"
+         },
+         {
+            "name" : "App Store",
+            "url" : "https://apps.apple.com/app/id1234567890"
+         }
+      ],
+      "highlight": [
+         "developed",
+         "Training management",
+         "Farmer managements",
+         "Demo Management",
+         "Homegarden Management",
+         "Field Day Management"
+      ]
+      
+   },
+
+   {
+      "id": 6,
+      "name": "MG Motor Cambodia",
       "description": "VkClub mobile application is a mobile application for customers of vKirirom Pine Resort to make their stay more comfortable and enjoyable.",
       "longDescription": "The vkClub App is a mobile application designed to enhance the experience of customers at vKirirom Pine Resort, making their stay more convenient and enjoyable. It allows users to stay connected with friends and family instantly, communicate with resort service operators anytime, and navigate the area with a digital map. The app also includes an emergency SOS button for added safety and keeps users updated with the latest news and events at the resort. Additionally, customers can top up money within the app to use for resort services and purchases, with the added benefit of exclusive discounts and special offers.",
       "technologyStack" : [
