@@ -15,7 +15,7 @@ export default function TechnologyCard({ technology }: TechnologyCardProps) {
       className="justify-center flex flex-row items-center px-3 py-1 gap-2"
     >
       {icon}
-      <p className="text-xs">{technology}</p>
+      <p className="text-xs font-bold">{technology}</p>
     </Card>
   );
 }
