@@ -67,7 +67,7 @@ export default function EducationComponent() {
             description={education.degree}
             date={education.dates}
           />
-          <p className="text-sm pt-2.5 text-gray-600/80">
+          <p className="text-sm pt-2.5 text-[#71717A]">
             <HighlightedText
               text={education.description}
               highlights={education.highlights}

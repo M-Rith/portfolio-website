@@ -37,8 +37,8 @@ export default async function ProductPage({
         <div className="flex flex-col">
           <ul className="list-disc pl-4">
             {product.features.map((feature) => (
-              <li key={feature} className="text-sm text-gray-600/80 py-1">
-                <p className="text-sm text-gray-600/80">{feature}</p>
+              <li key={feature} className="text-sm text-[#71717A] py-1">
+                <p className="text-sm text-[#71717A]">{feature}</p>
               </li>
             ))}
           </ul>

@@ -38,7 +38,7 @@ export default function ExperienceList({ experience }: ExperienceListProps) {
         date={experience.date}
         type={experience.type}
       />
-      <p className="text-sm pt-2.5 text-gray-600/80">
+      <p className="text-sm pt-2.5 text-[#71717A]">
         <HighlightedText
           text={experience.description}
           highlights={experience.highlights}
@@ -51,7 +51,7 @@ export default function ExperienceList({ experience }: ExperienceListProps) {
         <div className="flex flex-col pt-2.5">
           <ul className="list-disc pl-4">
             {experience.responsible.map((responsible) => (
-              <li key={responsible} className="text-sm text-gray-600/80 py-1">
+              <li key={responsible} className="text-sm text-[#71717A] py-1">
                 <HighlightedText
                   text={responsible}
                   highlights={experience.highlights}
