@@ -9,8 +9,19 @@ import {
   TbBrandReact,
   TbBrandWordpress,
   TbBrandVue,
+  TbBrandApple,
+  TbBrandGmail,
+  TbBrandLinkedin,
+  TbBrandGithub,
+  TbBrandGitlab,
+  TbBrandTelegram,
 } from "react-icons/tb";
-import { SiDart, SiMobxstatetree, SiShadcnui } from "react-icons/si";
+import {
+  SiDart,
+  SiMobxstatetree,
+  SiShadcnui,
+  SiCodewars,
+} from "react-icons/si";
 import { RiBearSmileFill } from "react-icons/ri";
 import { JSX } from "react";
 
@@ -32,6 +43,13 @@ export const getTechIcon = (tech: string) => {
     dart: <SiDart className="text-md" />,
     vue: <TbBrandVue className="text-md" />,
     zustand: <RiBearSmileFill className="text-md" />,
+    ios: <TbBrandApple className="text-md" />,
+    gmail: <TbBrandGmail className="text-md" />,
+    linkedin: <TbBrandLinkedin className="text-md" />,
+    github: <TbBrandGithub className="text-md" />,
+    gitlab: <TbBrandGitlab className="text-md" />,
+    telegram: <TbBrandTelegram className="text-md" />,
+    codewars: <SiCodewars className="text-md" />,
   };
 
   return iconMap[normalizedTech] || null;
