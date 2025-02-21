@@ -23,13 +23,13 @@ export default function Home() {
         }}
       />
       <WelcomeComponent />
-      <hr className="my-10" />
+      <hr className="my-10 border-black" />
       <ProductsComponent />
-      <hr className="my-10" />
+      <hr className="my-10 border-black" />
       <ExperienceComponent />
-      <hr className="my-10" />
+      <hr className="my-10  border-black" />
       <EducationComponent />
-      <hr className="my-10" />
+      <hr className="my-10  border-black" />
       <FooterComponent />
     </div>
   );

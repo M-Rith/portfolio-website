@@ -3,9 +3,6 @@ import { ProductTypes } from "@/types/products.type";
 import { Card, CardHeader, CardTitle, CardDescription } from "../ui/card";
 import Link from "next/link";
 import TechnologyCard from "../ui/technologyCard";
-
-import { TbBrandReactNative } from "react-icons/tb";
-import { RiNextjsFill } from "react-icons/ri";
 interface ProductListProps {
   product: ProductTypes;
 }
@@ -21,8 +18,9 @@ export default function ProductList({ product }: ProductListProps) {
           <CardDescription>
             <div className="flex flex-col">
               <div className="flex flex-row flex-wrap gap-2 pt-2.5">
-                <TbBrandReactNative className="text-2xl text-black" />
-                <RiNextjsFill className="text-2xl text-black" />
+                {product.technologyStack.map((technology) => (
+                  <TechnologyCard key={technology} technology={technology} />
+                ))}
               </div>
               <p className="text-sm text-[#71717A] pt-2.5">
                 {product.description}

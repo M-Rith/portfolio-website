@@ -198,7 +198,7 @@
          "Cross-Functional Team Collaboration : Work with a diverse team to define, develop, and release new features across mobile apps, web platforms, and backend applications within an agile environment."
       ],
       "technologyStack" : [
-         "Vue JS", "Tailwind CSS", "TypeScript"
+         "Vue", "Tailwind CSS", "TypeScript"
       ],
       "highlights": [
          "Develop and Maintain Web Applications",

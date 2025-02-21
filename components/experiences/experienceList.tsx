@@ -1,8 +1,8 @@
 import { ExperienceTypes } from "@/types/experiences.type";
 import React from "react";
 import Title from "../ui/title";
-import { Card } from "@/components/ui/card";
 import { splitTextWithHighlights } from "@/utils/textHighlighter";
+import TechnologyCard from "../ui/technologyCard";
 interface ExperienceListProps {
   experience: ExperienceTypes;
 }
@@ -67,12 +67,7 @@ export default function ExperienceList({ experience }: ExperienceListProps) {
         <p className="text-sm font-bold">Technology Used</p>
         <div className="flex flex-row gap-2 flex-wrap pt-2.5">
           {experience.technologyStack.map((technology) => (
-            <Card
-              key={technology}
-              className="justify-center flex flex-row items-center px-3 py-1"
-            >
-              <p className="text-xs">{technology}</p>
-            </Card>
+            <TechnologyCard key={technology} technology={technology} />
           ))}
         </div>
       </div>
