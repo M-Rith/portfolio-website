@@ -1,6 +1,48 @@
 {
    "title": "Hello, I'm Huot Monirith 👋",
    "description": "Software Engineer Based In Phnom Penh, Cambodia.",
+   "longDescription": "With three years of experience in Frontend and Mobile Development (cross-platform) and UX/UI Design, I’m passionate about crafting user-centric, innovative experiences. I care deeply about what I build, bringing ambition, self-motivation, and strong teamwork to create meaningful digital solutions.",
+   "aboutMe": "My name is Huot Monirith (Rith means 'Power' in Khmer), but you can also call me appleD0G. My tech journey began with a friend’s iPhone 3GS, a rare sight in Cambodia at the time, which sparked my fascination with innovation. Despite family expectations to pursue medicine, I chose to follow my passion for technology.",
+   "skills": [
+      "React Native",
+      "Next.js",
+      "Tailwind CSS",
+      "Figma",
+      "Flutter",
+      "React",
+      "Wordpress",
+      "IOS",
+      "Vue"
+   ],
+   "socials": [
+      {
+         "name": "Gmail",
+         "url": "mailto:hmonirith@gmail.com"
+      },
+      {
+         "name": "Linkedin",
+         "url": "https://www.linkedin.com/in/huot-monirith/"
+      },
+      {
+         "name": "Telegram",
+         "url": "https://t.me/AppleD0G"
+      },
+      {
+         "name": "Github",
+         "url": "https://github.com/M-Rith"
+      },
+      {
+         "name": "Gitlab",
+         "url": "https://gitlab.com/hmonirith"
+      },
+      {
+         "name": "Codewars",
+         "url": "https://www.codewars.com/users/AppleD0G"
+      }
+      
+
+         
+   ],
    "highlights": [
       "Software Engineer",
       "Web Developer",
