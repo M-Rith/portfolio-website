@@ -1,0 +1,74 @@
+[
+   {
+      "id": 1,
+      "question": "What is AppleD0g ?",
+      "answer": "AppleD0g is a name of the character inside Chinese drama called 'Go Go Squid 2: Dt. Appledog's Time."
+   },
+   {
+      "id": 2,
+      "question": "What IDE do you use?",
+      "answer": "I use Cursor IDE"
+   },
+   {
+      "id": 3,
+      "question": "Theme I use in Cursor?",
+      "answer": "I use Safira Theme"
+   },
+   {
+      "id": 4,
+      "question": "Font I use in Cursor?",
+      "answer": "I use JetBrains Mono font in Cursor"
+   }, 
+   {
+      "id": 5,
+      "question": "Flutter vs React Native?",
+      "answer": "I use both of them, they are good frameworks for building mobile apps just in different scenario."
+   }, 
+   {
+      "id": 6,
+      "question": "When use Flutter ?",
+      "answer": "build a mobile app with a unique UI and feeling for both IOS and android user."
+   }, 
+   {
+      "id": 7,
+      "question": "When use React Native?",
+      "answer": "build a mobile app with a native UI and feeling for both IOS and android user."
+   },
+   {
+      "id": 8,
+      "question": "What if I need  to use to use only one between Flutter and React Native ?",
+      "answer": "React Native"
+   },
+   {
+      "id": 9,
+      "question": "But the performance is better in Flutter?",
+      "answer": "Yes, Flutter is better than React Native. but not that much and it depends on the complexity of the app."
+   },
+   {
+      "id": 10,
+      "question": "Advice for new developer ?",
+      "answer": "Stick to one framework and learn it deeply. Don't try to learn all of them at once. It will be overwhelming and confusing and try to avoid Tutorial hell. The most important thing is don't generate a code from AI when you are a beginner, you need to understand the logic behind the code."
+   },
+      {
+      "id": 14,
+      "question": "What is the best way to learn how to code?",
+      "answer": "Practice, Practice, Practice. Don't be afraid to make mistakes and try to fix them. Don't be afraid to ask for help. Don't be afraid to ask for help. Don't be afraid to ask for help. Don't use AI to generate code if you really want to learn how to code."
+   },
+   {
+      "id": 11,
+      "question": "Why I work 3 places at the time during 2023 - 2024 ?",
+      "answer": "Well, I work at my company during my working hours and the rest of the day I work for my school's internship program (I don't have a life)"
+   },
+   {
+      "id": 12,
+      "question": "Why I do internship for that long time ?",
+      "answer": "It is required from my University and I need to do it to get my degree."
+   }, 
+   {
+      "id": 13,
+      "question": "What is the best school or university to learn how to code ?",
+      "answer": "Google / Youtube / ChatGPT University"
+   }
+   
+   
+]
