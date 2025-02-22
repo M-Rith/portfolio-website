@@ -2,6 +2,8 @@ import NotFound from "@/app/not-found";
 import Header from "@/components/ui/header";
 import TechnologyCard from "@/components/ui/technologyCard";
 import ProductsData from "@/data/products.json";
+import { getTechIcon } from "@/utils/techStackIcons";
+import Link from "next/link";
 import React from "react";
 
 export default async function ProductPage({
@@ -50,8 +52,31 @@ export default async function ProductPage({
       </section>
 
       <section id="url" className="py-2.5">
-        <h2 className="text-xl font-bold">URL</h2>
+        <h2 className="text-xl font-bold">URLs</h2>
+        {product.url.length > 0 ? (
+          <div>
+            {product.url.map((url) => (
+              <div
+                key={url.name}
+                className="flex flex-row py-1 gap-2 items-center"
+              >
+                {getTechIcon(url.name)}
+                <Link
+                  href={url.url}
+                  target="_blank"
+                  className="text-sm text-black"
+                >
+                  {url.name}
+                </Link>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <p className="text-sm text-[#71717A] py-1">No URLs found</p>
+        )}
       </section>
+
+      <hr className="my-10 border-black" />
     </div>
   );
 }

@@ -45,7 +45,7 @@ export default function EducationComponent() {
         transition={{ duration: 0.8 }}
       >
         <Header
-          title="Education"
+          title="🎓 Education"
           description="Here is a detailed list of my educational background and academic qualifications."
         />
       </motion.div>

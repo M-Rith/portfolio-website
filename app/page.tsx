@@ -2,7 +2,6 @@
 import EducationComponent from "@/components/education";
 import ExperienceComponent from "@/components/experiences";
 import ProductsComponent from "@/components/products";
-import FooterComponent from "@/components/footer";
 import WelcomeComponent from "@/components/welcome";
 import { motion, useScroll } from "motion/react";
 export default function Home() {
@@ -30,7 +29,6 @@ export default function Home() {
       <hr className="my-10  border-black" />
       <EducationComponent />
       <hr className="my-10  border-black" />
-      <FooterComponent />
     </div>
   );
 }

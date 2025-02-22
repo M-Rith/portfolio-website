@@ -59,6 +59,7 @@ export default function WelcomeComponent() {
               <Title
                 title="👋 About Me"
                 description="✨ A brief introduction to who I am."
+                noIcon={true}
               />
               <p className="text-sm text-[#71717A] pt-2.5">{aboutMe}</p>
             </>
@@ -83,6 +84,7 @@ export default function WelcomeComponent() {
               <Title
                 title="📬 Connect With Me"
                 description="🤝 Stay in touch and let's build something amazing together!"
+                noIcon={true}
               />
               <div className="flex flex-row flex-wrap gap-2 pt-2.5">
                 {socials.map((social) => (
@@ -106,6 +108,7 @@ export default function WelcomeComponent() {
               <Title
                 title="💻 My Skills"
                 description="🚀 The Tech Stack That Powers My Work"
+                noIcon={true}
               />
               <div className="flex flex-row flex-wrap gap-2 pt-2.5">
                 {skills.map((skill) => (

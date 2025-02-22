@@ -21,7 +21,7 @@ export default function ProductsComponent() {
         transition={{ duration: 0.8 }}
       >
         <Header
-          title="Products"
+          title="📦 Products"
           description="Here is a list of publicly available products that I have contributed to"
         />
       </motion.div>
