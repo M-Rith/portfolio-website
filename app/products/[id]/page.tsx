@@ -22,7 +22,7 @@ export default async function ProductPage({
   console.log(product);
 
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col min-h-[85vh]">
       <Header title={product.name} description={product.longDescription} />
 
       <section id="technology" className="py-2.5">

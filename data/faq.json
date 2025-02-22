@@ -7,17 +7,17 @@
    {
       "id": 2,
       "question": "What IDE do you use?",
-      "answer": "I use Cursor IDE"
+      "answer": "I use Cursor IDE."
    },
    {
       "id": 3,
       "question": "Theme I use in Cursor?",
-      "answer": "I use Safira Theme"
+      "answer": "I use Safira Theme."
    },
    {
       "id": 4,
       "question": "Font I use in Cursor?",
-      "answer": "I use JetBrains Mono font in Cursor"
+      "answer": "I use JetBrains Mono font in Cursor."
    }, 
    {
       "id": 5,
@@ -37,7 +37,7 @@
    {
       "id": 8,
       "question": "What if I need  to use to use only one between Flutter and React Native ?",
-      "answer": "React Native"
+      "answer": "React Native."
    },
    {
       "id": 9,
@@ -57,7 +57,7 @@
    {
       "id": 11,
       "question": "Why I work 3 places at the time during 2023 - 2024 ?",
-      "answer": "Well, I work at my company during my working hours and the rest of the day I work for my school's internship program (I don't have a life)"
+      "answer": "Well, I work at my company during my working hours and the rest of the day I work for my school's internship program (I don't have a life)."
    },
    {
       "id": 12,
@@ -67,7 +67,7 @@
    {
       "id": 13,
       "question": "What is the best school or university to learn how to code ?",
-      "answer": "Google / Youtube / ChatGPT University"
+      "answer": "Google / Youtube / ChatGPT University."
    }
    
    

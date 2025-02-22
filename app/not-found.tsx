@@ -5,7 +5,7 @@ import notFoundImage from "@/public/notFound.svg";
 import { Button } from "@/components/ui/button";
 export default function NotFound() {
   return (
-    <div className="flex flex-col h-[90vh] items-center justify-center">
+    <div className="flex flex-col h-[85vh] items-center justify-center">
       <Image src={notFoundImage} alt="404" className="w-1/2 " />
       <h1 className="text-3xl font-bold">Page Not Found</h1>
 
