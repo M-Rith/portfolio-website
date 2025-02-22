@@ -20,7 +20,9 @@ const HighlightedText = ({
     <>
       {segments.map(({ segment, isHighlighted }, index) =>
         isHighlighted ? (
-          <strong key={index}>{segment}</strong>
+          <strong className="text-black" key={index}>
+            {segment}
+          </strong>
         ) : (
           <span key={index}>{segment}</span>
         )
