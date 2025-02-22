@@ -15,6 +15,8 @@ import {
   TbBrandGithub,
   TbBrandGitlab,
   TbBrandTelegram,
+  TbWorld,
+  TbBrandAppstore,
 } from "react-icons/tb";
 import {
   SiDart,
@@ -23,6 +25,7 @@ import {
   SiCodewars,
 } from "react-icons/si";
 import { RiBearSmileFill } from "react-icons/ri";
+import { BiLogoPlayStore } from "react-icons/bi";
 import { JSX } from "react";
 
 export const getTechIcon = (tech: string) => {
@@ -50,6 +53,9 @@ export const getTechIcon = (tech: string) => {
     gitlab: <TbBrandGitlab className="text-md" />,
     telegram: <TbBrandTelegram className="text-md" />,
     codewars: <SiCodewars className="text-md" />,
+    website: <TbWorld className="text-md" />,
+    appstore: <TbBrandAppstore className="text-md" />,
+    playstore: <BiLogoPlayStore className="text-md" />,
   };
 
   return iconMap[normalizedTech] || null;

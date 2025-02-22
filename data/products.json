@@ -2,7 +2,8 @@
    {
       "id" : 1,
       "name": "KT Mobile App",
-      "description": "KT Mobile App was developed for the East-West Seed Knowledge Transfer (EWS-KT), a non-profit corporate foundation tied with the East-West Seed Group.",
+      "description": "KT Mobile App is a mobile application developed for the East-West Seed Knowledge Transfer (EWS-KT), a non-profit corporate foundation tied with the East-West Seed Group.",
+      
       "longDescription": "The app is designed to enhance the abilities of overseeing farmer training programs, making crucial agricultural knowledge more accessible and enhancing farmers' business knowledge. It's a step forward to support smallholder farmers and increase the availability of safe vegetables.",
       "features": [
          "Farmer managements",
@@ -23,21 +24,15 @@
       ],
       "technologyStack" : [
          "React Native",
-         "MobX"
+         "MobX",
+         "Typescript"
       ],
       "images" : [
          "dwadawd",
          "iadwwadaw"
       ],
       "url" : [
-         {
-            "name" : "Google Play",
-            "url" : "https://play.google.com/store/apps/details?id=com.kt.mobile"
-         },
-         {
-            "name" : "App Store",
-            "url" : "https://apps.apple.com/app/id1234567890"
-         }
+
       ],
       "highlight": [
          "developed",
@@ -48,11 +43,77 @@
          "Field Day Management"
       ]
    },
+      {
+      "id": 6,
+      "name": "MG Motor Cambodia",
+      "description": "The MG Cambodia website is a website to showcase MG vehicles, provide dealership and service center locations, and offer customer support for MG car buyers in Cambodia.",
+      "longDescription": "The website MG Cambodia is the official site of MG Cambodia, the exclusive distributor of MG vehicles in Cambodia. It provides detailed information about various MG car models. Visitors can also use the website to locate MG showrooms and service centers nearby.",
+      "technologyStack" : [
+         "Wordpress"
+      ],
+      "features": [
+         "Model Showcase",
+         "Dealer and Service Center Locator",
+         "Contact Information",
+         "Comprehensive FAQs",
+         "Bilingual Support",
+         "Animation",
+         "Responsive Design"
+      ],
+      "images" : [
+         "dwadawd",
+         "iadwwadaw"
+      ],
+      "url" : [
+         {
+            "name" : "Website",
+            "url" : "https://mgcambodia.com/"
+         }
+      ]
+   },
+      {
+      "id": 5,
+      "name": "East West Seed Website",
+      "description": "The East-West Seed website is a website that provides seed information, farmer support, and insights into its global impact on sustainable agriculture.",
+      "longDescription": "The East-West Seed website is built to offer detailed information about high-quality vegetable seeds tailored for tropical regions. It aims to support smallholder farmers by providing agronomic knowledge, best practices, and access to over 650 seed varieties. The site also highlights the company’s global initiatives in sustainable agriculture, showcasing its presence in 14 countries, farmer education programs, and commitment to improving livelihoods through the Knowledge Transfer Foundation. Additionally, it serves as a platform for news, resources, and updates on the company’s impact on the agricultural community.",
+      "features": [
+         "Company Information",
+         "Crop Varieties",
+         "Agronomic Resources",
+         "Farmer Education",
+         "News and Updates",
+         "Career Opportunities",
+         "Contact Information"
+      ],
+      "technologyStack" : [
+         "Wordpress",
+         "Tailwind CSS"
+      ],
+      "images" : [
+         "dwadawd",
+         "iadwwadaw"
+      ],
+      "url" : [
+         {
+            "name" : "website",
+            "url" : "https://www.eastwestseed.com/"
+         }
+      ],
+      "highlight": [
+         "developed",
+         "Training management",
+         "Farmer managements",
+         "Demo Management",
+         "Homegarden Management",
+         "Field Day Management"
+      ]
+      
+   },
    {
       "id" : 2,
       "name": "Shuttle Bus Booking System",
       "description": "The Shuttle Bus Booking System is a web application that allows students, lecturers, and staff to book shuttle bus services between Phnom Penh and vKirirom Pine Resort.",
-      "longDescription": "The system is designed to provide a convenient and efficient way for students, lecturers, and staff to book and manage shuttle bus services between Phnom Penh and vKirirom Pine Resort. It features a user-friendly interface that allows users to easily make reservations, track real-time bus schedules, and receive notifications about their trips. Additionally, the system ensures a smooth and organized transportation experience by providing detailed route information, bus availability updates, and driver details. By streamlining the booking process and enhancing accessibility, this solution helps improve the overall efficiency and reliability of shuttle bus services for the academic community.",
+      "longDescription": "The system is built to provide a convenient and efficient way for students, lecturers, and staff to book and manage shuttle bus services between Phnom Penh and vKirirom Pine Resort. It features a user-friendly interface that allows users to easily make reservations, track real-time bus schedules, and receive notifications about their trips. Additionally, the system ensures a smooth and organized transportation experience by providing detailed route information, bus availability updates, and driver details. By streamlining the booking process and enhancing accessibility, this solution helps improve the overall efficiency and reliability of shuttle bus services for the academic community.",
       "features" : [
          "Booking system",
          "Bus schedule management",
@@ -72,7 +133,7 @@
       "url" : [
          {
             "name" : "Website",
-            "url" : "https://shuttlebus.vku.edu.kh/"
+            "url" : "http://136.228.141.22/"
          }
       ],
       "highlight": [
@@ -85,11 +146,12 @@
    {
       "id" : 3,
       "name": "Shuttle Bus Admin System",
-      "description": "Shuttle bus admin system is a web application that allows residential admin to manage shuttle bus services.",
+      "description": "The Shuttle Bus Admin System is a web application that allows residential administrators to manage shuttle bus services.",
       "longDescription": "The system is designed to provide a convenient and efficient way for residential administrators to manage shuttle bus services. It enables seamless handling of schedules, routes, and buses, including detailed information about bus drivers. Additionally, the system facilitates the management of user accounts, including students, staff, and administrators, while also tracking user tickets, trip history, and overall service records. This comprehensive solution ensures smooth operation and enhances the efficiency of shuttle bus services within residential communities.",
       "technologyStack" : [
          "Next.Js",
          "Tailwind CSS",
+         "Shadcn/UI",
          "Figma"
       ],
       "features": [
@@ -106,8 +168,8 @@
       ],
       "url" : [
          {
-            "name" : "Google Play",
-            "url" : "https://play.google.com/store/apps/details?id=com.kt.mobile"
+            "name" : "Website",
+            "url" : "http://136.228.141.22/"
          }
       ]
    },
@@ -136,89 +198,12 @@
       ],
       "url" : [
          {
-            "name" : "Google Play",
-            "url" : "https://play.google.com/store/apps/details?id=com.kt.mobile"
-         }
-      ]
-   },
-   {
-      "id": 5,
-      "name": "East West Seed",
-      "description": "East West Seed was developed for the East-West Seed Knowledge Transfer (EWS-KT), a non-profit corporate foundation tied with the East-West Seed Group.",
-      "longDescription": "The app is designed to enhance the abilities of overseeing farmer training programs, making crucial agricultural knowledge more accessible and enhancing farmers' business knowledge. It's a step forward to support smallholder farmers and increase the availability of safe vegetables.",
-      "features": [
-         "Farmer managements",
-         "Farmer Report",
-         "Demo Management",
-         "Demo Report",
-         "Homegarden Management",
-         "Homegarden Report",
-         "Field Day Management",
-         "Field Day Report",
-         "Training management",
-         "Training Report",
-         "Market survey insight",
-         "Market survey Report",
-         "Offline mode",
-         "Notification",
-         "Synchronization"
-      ],
-      "technologyStack" : [
-         "React Native",
-         "MobX"
-      ],
-      "images" : [
-         "dwadawd",
-         "iadwwadaw"
-      ],
-      "url" : [
-         {
-            "name" : "Google Play",
+            "name" : "playStore",
             "url" : "https://play.google.com/store/apps/details?id=com.kt.mobile"
          },
          {
-            "name" : "App Store",
-            "url" : "https://apps.apple.com/app/id1234567890"
-         }
-      ],
-      "highlight": [
-         "developed",
-         "Training management",
-         "Farmer managements",
-         "Demo Management",
-         "Homegarden Management",
-         "Field Day Management"
-      ]
-      
-   },
-
-   {
-      "id": 6,
-      "name": "MG Motor Cambodia",
-      "description": "VkClub mobile application is a mobile application for customers of vKirirom Pine Resort to make their stay more comfortable and enjoyable.",
-      "longDescription": "The vkClub App is a mobile application designed to enhance the experience of customers at vKirirom Pine Resort, making their stay more convenient and enjoyable. It allows users to stay connected with friends and family instantly, communicate with resort service operators anytime, and navigate the area with a digital map. The app also includes an emergency SOS button for added safety and keeps users updated with the latest news and events at the resort. Additionally, customers can top up money within the app to use for resort services and purchases, with the added benefit of exclusive discounts and special offers.",
-      "technologyStack" : [
-         "Flutter",
-         "Firebase",
-         "Figma"
-      ],
-      "features": [
-         "Notification",
-         "Emergency SOS",
-         "Digital map",
-         "Top-up feature",
-         "News and events",
-         "QR payment",
-         "Payment history"
-      ],
-      "images" : [
-         "dwadawd",
-         "iadwwadaw"
-      ],
-      "url" : [
-         {
-            "name" : "Google Play",
-            "url" : "https://play.google.com/store/apps/details?id=com.kt.mobile"
+            "name" : "AppStore",
+            "url" : "https://apps.apple.com/kh/app/vkclub/id1558483889"
          }
       ]
    }

@@ -21,7 +21,7 @@ export default function ExperienceComponent() {
         transition={{ duration: 0.8 }}
       >
         <Title
-          title="Work Experiences"
+          title="💻 Work Experiences"
           description="Here are the key responsibilities and tasks I have been handling in my work experience."
         />
       </motion.div>
