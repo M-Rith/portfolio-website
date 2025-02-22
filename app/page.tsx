@@ -28,7 +28,6 @@ export default function Home() {
       <ExperienceComponent />
       <hr className="my-10  border-black" />
       <EducationComponent />
-      <hr className="my-10  border-black" />
     </div>
   );
 }
