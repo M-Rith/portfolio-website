@@ -10,7 +10,7 @@ export default function ProductsComponent() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ margin: "-100px" }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.8 }}
       id="products"
       className="products-section"
     >
@@ -18,7 +18,7 @@ export default function ProductsComponent() {
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ margin: "-100px" }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.8 }}
       >
         <Header
           title="Products"
@@ -31,7 +31,7 @@ export default function ProductsComponent() {
           whileInView={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
           viewport={{ margin: "-100px" }}
-          transition={{ duration: 0.5, delay: index * 0.2 }}
+          transition={{ duration: 0.8, delay: index * 0.2 }}
           key={product.id}
           className={`flex flex-col ${
             index !== ProductsData.length - 1

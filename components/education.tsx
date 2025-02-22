@@ -18,7 +18,9 @@ const HighlightedText = ({
     <>
       {segments.map(({ segment, isHighlighted }, index) =>
         isHighlighted ? (
-          <strong key={index}>{segment}</strong>
+          <strong className="text-black" key={index}>
+            {segment}
+          </strong>
         ) : (
           <span key={index}>{segment}</span>
         )
@@ -33,14 +35,14 @@ export default function EducationComponent() {
       initial={{ opacity: 0 }}
       whileInView={{ opacity: 1 }}
       viewport={{ margin: "-100px" }}
-      transition={{ duration: 0.5 }}
+      transition={{ duration: 0.8 }}
       className="education-section"
     >
       <motion.div
         initial={{ opacity: 0, y: -50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ margin: "-100px" }}
-        transition={{ duration: 0.5 }}
+        transition={{ duration: 0.8 }}
       >
         <Header
           title="Education"
@@ -55,7 +57,7 @@ export default function EducationComponent() {
           whileInView={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: index % 2 === 0 ? -50 : 50 }}
           viewport={{ margin: "-100px" }}
-          transition={{ duration: 0.5, delay: index * 0.2 }}
+          transition={{ duration: 0.8, delay: index * 0.2 }}
           className={`flex flex-col ${
             index !== EducationData.length - 1
               ? "py-3 md:py-4 lg:py-5"
