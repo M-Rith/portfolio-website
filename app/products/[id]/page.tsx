@@ -18,11 +18,8 @@ export default async function ProductPage({
   if (!product) {
     return <NotFound />;
   }
-
-  console.log(product);
-
   return (
-    <div className="flex flex-col min-h-[85vh]">
+    <div className="flex flex-col min-h-[80vh]">
       <Header title={product.name} description={product.longDescription} />
 
       <section id="technology" className="py-2.5">
@@ -75,8 +72,6 @@ export default async function ProductPage({
           <p className="text-sm text-[#71717A] py-1">No URLs found</p>
         )}
       </section>
-
-      <hr className="my-10 border-black" />
     </div>
   );
 }

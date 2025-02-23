@@ -18,7 +18,7 @@ export default function Home() {
           right: 0,
           height: 10,
           originX: 0,
-          backgroundColor: "rgb(75 85 99 / 0.8)",
+          backgroundColor: "#0000000",
         }}
       />
       <WelcomeComponent />
