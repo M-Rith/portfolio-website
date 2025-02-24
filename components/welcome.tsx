@@ -70,7 +70,10 @@ export default function WelcomeComponent() {
           content: (
             <p className="text-[#71717A] text-sm">
               🔍 Have questions? Check out my{" "}
-              <Link href="/faq" className="text-black font-bold">
+              <Link
+                href="/faq"
+                className="text-black font-bold hover:underline"
+              >
                 FAQ
               </Link>{" "}
               to learn more!
