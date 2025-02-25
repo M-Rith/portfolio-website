@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Header from "./ui/header";
 import PersonalData from "@/data/personal.json";
-import AboutMe from "@/public/about-me.svg";
 import Title from "./ui/title";
 import TechnologyCard from "./ui/technologyCard";
 import Link from "next/link";
