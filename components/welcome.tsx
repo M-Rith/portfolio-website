@@ -6,6 +6,7 @@ import Title from "./ui/title";
 import TechnologyCard from "./ui/technologyCard";
 import Link from "next/link";
 import { motion } from "framer-motion";
+import PersonalImage from "@/public/personal.svg";
 
 export default function WelcomeComponent() {
   const {
@@ -34,7 +35,7 @@ export default function WelcomeComponent() {
         transition={{ duration: 0.8 }}
       >
         <Image
-          src={AboutMe}
+          src={PersonalImage}
           alt="Welcome"
           width={250}
           height={250}

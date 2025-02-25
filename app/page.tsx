@@ -3,7 +3,7 @@ import EducationComponent from "@/components/education";
 import ExperienceComponent from "@/components/experiences";
 import ProductsComponent from "@/components/products";
 import WelcomeComponent from "@/components/welcome";
-import { motion, useScroll } from "motion/react";
+import { motion, useScroll } from "framer-motion";
 export default function Home() {
   const { scrollYProgress } = useScroll();
   return (
@@ -18,7 +18,7 @@ export default function Home() {
           right: 0,
           height: 10,
           originX: 0,
-          backgroundColor: "#0000000",
+          backgroundColor: "#000000",
         }}
       />
       <WelcomeComponent />
