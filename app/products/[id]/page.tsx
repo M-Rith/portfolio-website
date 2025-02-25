@@ -49,7 +49,7 @@ export default async function ProductPage({
       </section>
 
       <section id="url" className="py-2.5">
-        <h2 className="text-xl font-bold">URLs</h2>
+        <h2 className="text-xl font-bold">Links to the product</h2>
         {product.url.length > 0 ? (
           <div>
             {product.url.map((url) => (
@@ -63,7 +63,13 @@ export default async function ProductPage({
                   target="_blank"
                   className="text-sm text-black"
                 >
-                  {url.name}
+                  {url.name === "website"
+                    ? "Website"
+                    : url.name === "playStore"
+                    ? "Play Store"
+                    : url.name === "appStore"
+                    ? "App Store"
+                    : url.name}
                 </Link>
               </div>
             ))}
