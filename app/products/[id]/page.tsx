@@ -49,7 +49,7 @@ export default async function ProductPage({
       </section>
 
       <section id="url" className="py-2.5">
-        <h2 className="text-xl font-bold">Links to the product</h2>
+        <h2 className="text-xl font-bold">Public URLs</h2>
         {product.url.length > 0 ? (
           <div>
             {product.url.map((url) => (
