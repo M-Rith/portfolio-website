@@ -10,8 +10,8 @@ const ubuntu = Ubuntu({
 });
 
 export const metadata: Metadata = {
-  title: "Huot Monirith's Portfolio",
-  description: "Huot Monirith's Portfolio",
+  title: "My Portfolio",
+  description: "My Portfolio",
 };
 
 export default function RootLayout({
