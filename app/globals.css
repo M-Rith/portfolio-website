@@ -69,7 +69,7 @@ body {
     @apply border-border;
   }
   body {
-    @apply bg-[##FAF9F6] text-foreground;
+    @apply bg-background text-foreground;
   }
 
   .section {

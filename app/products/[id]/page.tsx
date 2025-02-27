@@ -5,7 +5,7 @@ import ProductsData from "@/data/products.json";
 import { getTechIcon } from "@/utils/techStackIcons";
 import Link from "next/link";
 import React from "react";
-
+import Image from "next/image";
 export default async function ProductPage({
   params,
 }: {
@@ -46,6 +46,22 @@ export default async function ProductPage({
 
       <section id="images" className="py-2.5">
         <h2 className="text-xl font-bold">Images</h2>
+
+        {product.images.length > 0 ? (
+          product.images.map((image, index) => (
+            <div key={index} className="flex flex-col py-2.5">
+              <Image
+                src={image.url}
+                alt={`${product.name} screenshot ${index + 1}`}
+                width={400}
+                height={200}
+              />
+              <p className="text-sm text-black font-bold">{image.name}</p>
+            </div>
+          ))
+        ) : (
+          <p className="text-sm text-[#71717A] py-1">No images found</p>
+        )}
       </section>
 
       <section id="url" className="py-2.5">
@@ -75,7 +91,7 @@ export default async function ProductPage({
             ))}
           </div>
         ) : (
-          <p className="text-sm text-[#71717A] py-1">No URLs found</p>
+          <p className="text-sm text-black py-1">No URLs found</p>
         )}
       </section>
     </div>
