@@ -5,7 +5,8 @@ import ProductsData from "@/data/products.json";
 import { getTechIcon } from "@/utils/techStackIcons";
 import Link from "next/link";
 import React from "react";
-import Image from "next/image";
+import ZoomImage from "@/components/zoomImage";
+
 export default async function ProductPage({
   params,
 }: {
@@ -23,7 +24,10 @@ export default async function ProductPage({
       <Header title={product.name} description={product.longDescription} />
 
       <section id="technology" className="py-2.5">
-        <h2 className="text-xl font-bold">Technology Stack</h2>
+        <Header
+          title="🚀 Technology Stack"
+          description="🛠️ Cutting-edge tools powering this project to success!"
+        />
         <div className="flex flex-row flex-wrap gap-2 pt-2.5">
           {product.technologyStack.map((technology) => (
             <TechnologyCard key={technology} technology={technology} />
@@ -32,7 +36,11 @@ export default async function ProductPage({
       </section>
 
       <section id="features" className="py-2.5">
-        <h2 className="text-xl font-bold">Key Features</h2>
+        <Header
+          title="⚡ Key Features"
+          description="✨ Key features for performance, ease, and innovation"
+        />
+
         <div className="flex flex-col">
           <ul className="list-disc pl-4">
             {product.features.map((feature) => (
@@ -45,17 +53,15 @@ export default async function ProductPage({
       </section>
 
       <section id="images" className="py-2.5">
-        <h2 className="text-xl font-bold">Images</h2>
+        <Header
+          title="📷 Screenshots"
+          description="🔎 Click on an image to view it in full size."
+        />
 
         {product.images.length > 0 ? (
           product.images.map((image, index) => (
             <div key={index} className="flex flex-col py-2.5">
-              <Image
-                src={image.url}
-                alt={`${product.name} screenshot ${index + 1}`}
-                width={400}
-                height={200}
-              />
+              <ZoomImage image={image.url} description={image.name} />
               <p className="text-sm text-black font-bold">{image.name}</p>
             </div>
           ))
