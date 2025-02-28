@@ -260,46 +260,46 @@
       ],
       "features": [
          "Schedule management",
-         "Route management",
          "Bus management",
+         "Departure management",
+         "Location management",
          "User management",
-         "Ticket management",
-         "History management"
+         "Ticket management"
       ],
            "images" : [
          {
             "name": "Login Screen",
-            "url": "/shuttle_bus_booking/login.png"
+            "url": "/shuttle_bus_admin/login.png"
          },
          {
-            "name": "Booking Screen",
-            "url": "/shuttle_bus_booking/booking.png"
+            "name": "Schedule Screen",
+            "url": "/shuttle_bus_admin/schedule.png"
          },
          {
-            "name": "History Screen",
-            "url": "/shuttle_bus_booking/history.png"
+            "name": "Bus Screen",
+            "url": "/shuttle_bus_admin/bus.png"
          },
          {
-            "name": "Profile Screen",
-            "url": "/shuttle_bus_booking/profile.png"
+            "name": "Departure Screen",
+            "url": "/shuttle_bus_admin/departure.png"
          },
          {
-            "name": "Available Bus Screen",
-            "url": "/shuttle_bus_booking/availableBus.png"
+            "name": "Location Screen",
+            "url": "/shuttle_bus_admin/location.png"
          },
          {
-            "name": "Select Screen",
-            "url": "/shuttle_bus_booking/select.png"
+            "name": "User Screen",
+            "url": "/shuttle_bus_admin/user.png"
          },
          {
             "name": "Ticket Screen",
-            "url": "/shuttle_bus_booking/ticketScreen.png"
+            "url": "/shuttle_bus_admin/ticket.png"
          }
       ],
       "url" : [
          {
             "name" : "Website",
-            "url" : "http://136.228.141.22/"
+            "url" : "http://136.228.141.22:4000/auth/signIn"
          }
       ]
    },
