@@ -66,6 +66,7 @@
       ],
       "technologyStack" : [
          "Flutter",
+         "Figma",
          "Firebase",
          "Dart"
       ],
@@ -111,6 +112,7 @@
          "Next.js",
          "Tailwind CSS",
          "TypeScript",
+         "Figma",
          "Shadcn/UI"
       ],
       "highlights": [
@@ -143,7 +145,7 @@
          "Basic UX/UI Design : Design fundamental UX/UI elements to enhance the user experience."
       ],
       "technologyStack" : [
-        "Flutter", "Dart", "Firebase"
+        "Flutter", "Dart", "Firebase", "Figma"
       ],
       "highlights": [
          "Develop and Maintain Mobile Applications",
