@@ -5,7 +5,6 @@ import ProductsData from "@/data/products.json";
 import { getTechIcon } from "@/utils/techStackIcons";
 import Link from "next/link";
 import React from "react";
-import ZoomImage from "@/components/zoomImage";
 
 export default async function ProductPage({
   params,
@@ -20,7 +19,7 @@ export default async function ProductPage({
     return <NotFound />;
   }
   return (
-    <div className="flex flex-col min-h-[80vh]">
+    <div className="flex flex-col min-h-[85vh]">
       <Header title={product.name} description={product.longDescription} />
 
       <section id="technology" className="py-2.5">
@@ -52,7 +51,7 @@ export default async function ProductPage({
         </div>
       </section>
 
-      <section id="images" className="py-2.5">
+      {/* <section id="images" className="py-2.5">
         <Header
           title="📷 Screenshots"
           description="🔎 Click on an image to view it in full size."
@@ -68,7 +67,7 @@ export default async function ProductPage({
         ) : (
           <p className="text-sm text-[#71717A] py-1">No images found</p>
         )}
-      </section>
+      </section> */}
 
       <section id="url" className="py-2.5">
         <h2 className="text-xl font-bold">Find It On</h2>
