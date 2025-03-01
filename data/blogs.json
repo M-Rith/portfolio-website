@@ -1,0 +1,9 @@
+[
+   {
+      "id" : 1,
+      "title" : "Why I write this blog ?",
+      "content" : "I write this blog to share my knowledge and experience with others. I hope this blog can help you to learn something new.",
+      "createdAt" : "2021-01-01",
+      "updatedAt" : "2021-01-01"
+   }
+]
