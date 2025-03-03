@@ -18,6 +18,7 @@ import {
   TbWorld,
   TbBrandAppstore,
   TbFileCv,
+  TbBrandBlogger,
 } from "react-icons/tb";
 import {
   SiDart,
@@ -58,6 +59,7 @@ export const getTechIcon = (tech: string) => {
     appstore: <TbBrandAppstore className="text-md" />,
     playstore: <BiLogoPlayStore className="text-md" />,
     cv: <TbFileCv className="text-md" />,
+    blog: <TbBrandBlogger className="text-md" />,
   };
 
   return iconMap[normalizedTech] || null;
