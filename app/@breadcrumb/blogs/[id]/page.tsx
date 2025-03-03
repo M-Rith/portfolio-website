@@ -6,7 +6,6 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import blogs from "@/data/blogs.json";
-import { BlogsTypes } from "@/types/blogs.type";
 export default async function BreadcrumbSlot({
   params,
 }: {
@@ -14,7 +13,7 @@ export default async function BreadcrumbSlot({
 }) {
   const { id } = await params;
 
-  const blog = blogs.find((blog: BlogsTypes) => blog.id === parseInt(id));
+  const blog = blogs.find((blog) => blog.id === parseInt(id));
 
   return (
     <BreadcrumbList>
