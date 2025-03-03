@@ -1,5 +1,4 @@
 import React from "react";
-import Link from "next/link";
 export default function FooterComponent() {
   return (
     <section className="footer-section pb-10">

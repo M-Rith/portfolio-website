@@ -5,7 +5,7 @@ import {
   CardTitle,
   CardDescription,
 } from "@/components/ui/card";
-import { BlogsTypes } from "@/types/blogs";
+import { BlogsTypes } from "@/types/blogs.type";
 import Link from "next/link";
 
 interface BlogCardProps {
@@ -20,7 +20,7 @@ export default function BlogCard({ blog }: BlogCardProps) {
           <h2 className="text-lg font-bold">{blog.title}</h2>
         </CardTitle>
         <CardDescription>
-          <p className="text-sm text-[#71717A] pt-2.5">{blog.content}</p>
+          <p className="text-sm text-[#71717A] pt-2.5">{blog.description}</p>
           <div className="flex flex-row pt-2.5 items-center justify-between">
             <p className="text-sm text-black font-bold">{blog.createdAt}</p>
             <Link
