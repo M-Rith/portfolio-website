@@ -3,6 +3,13 @@ import Header from "@/components/ui/header";
 import BlogsData from "@/data/blogs.json";
 import NotFound from "@/app/not-found";
 import { splitTextWithHighlights } from "@/utils/textHighlighter";
+
+export async function generateStaticParams() {
+  return BlogsData.map((blog) => ({
+    id: blog.id.toString(),
+  }));
+}
+
 export default async function BlogsDetailPage({
   params,
 }: {
