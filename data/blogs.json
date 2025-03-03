@@ -1,9 +1,52 @@
 [
    {
       "id" : 1,
-      "title" : "Why I write this blog ?",
-      "content" : "I write this blog to share my knowledge and experience with others. I hope this blog can help you to learn something new.",
-      "createdAt" : "2021-01-01",
-      "updatedAt" : "2021-01-01"
+      "title" : "Why I start writing blog ?",
+      "description": "The reason why I start writing blog is to express my thoughts and share my knowledge with others. I hope this blog can help you to learn something new.",
+      "content" : [
+         {
+            "type": "paragraph",
+            "content": "The reason why I start writing blog is to express my thoughts and share my knowledge with others. I hope this blog can help you to learn something new."
+         },
+         {
+            "type" :"subtitle",
+            "content": "Objectives of blog "
+         },
+         {
+            "type": "list",
+            "content": [
+               "To express my thoughts about some specific topics.",
+               "To help others to learn something new.",
+               "To share my experience related to work, life, and etc.",
+               "Document and update about my journey and my experience.",
+               "To work on my writing skills."
+            ]
+         },
+         {
+            "type": "paragraph",
+            "content": "I plan to release at least one blog per month. I will try my best to write the blog regularly.",
+            "highlights": [
+               "at least one blog per month"
+            ]
+         }, 
+         {
+            "type": "paragraph",
+            "content": "If you have any questions or suggestions, please feel free to contact me in my connect with me section.",
+            "highlights": [
+               "connect with me"
+            ]
+         }, 
+         {
+            "type": "end",
+            "content": "Peace out ✌️, Thank you for reading my blog."
+         }
+
+
+      ],
+      "images": [
+
+      ],
+      "createdAt" : "2025-03-03",
+      "updatedAt" : "2025-03-03"
    }
 ]

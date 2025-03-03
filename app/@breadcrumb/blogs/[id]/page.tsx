@@ -6,7 +6,7 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import blogs from "@/data/blogs.json";
-import { BlogsTypes } from "@/types/blogs";
+import { BlogsTypes } from "@/types/blogs.type";
 export default async function BreadcrumbSlot({
   params,
 }: {
