@@ -58,7 +58,7 @@ export const getTechIcon = (tech: string) => {
     website: <TbWorld className="text-md" />,
     appstore: <TbBrandAppstore className="text-md" />,
     playstore: <BiLogoPlayStore className="text-md" />,
-    cv: <TbFileCv className="text-md" />,
+    resume: <TbFileCv className="text-md" />,
     blog: <TbBrandBlogger className="text-md" />,
   };
 

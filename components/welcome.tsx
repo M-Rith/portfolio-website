@@ -96,7 +96,7 @@ export default function WelcomeComponent() {
                     key={social.name}
                     target={social.name === "Blog" ? "_self" : "_blank"}
                     rel="noopener noreferrer"
-                    download={social.name === "CV" ? true : undefined}
+                    download={social.name === "Resume" ? true : undefined}
                   >
                     <TechnologyCard technology={social.name} hover={true} />
                   </Link>
