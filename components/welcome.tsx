@@ -94,7 +94,7 @@ export default function WelcomeComponent() {
                   <Link
                     href={social.url}
                     key={social.name}
-                    target="_blank"
+                    target={social.name === "Blog" ? "_self" : "_blank"}
                     rel="noopener noreferrer"
                     download={social.name === "CV" ? true : undefined}
                   >
