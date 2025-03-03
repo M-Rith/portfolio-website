@@ -6,6 +6,11 @@ import { getTechIcon } from "@/utils/techStackIcons";
 import Link from "next/link";
 import React from "react";
 
+export async function generateStaticParams() {
+  return ProductsData.map((product) => ({
+    id: product.id.toString(),
+  }));
+}
 export default async function ProductPage({
   params,
 }: {
