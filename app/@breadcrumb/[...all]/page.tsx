@@ -8,6 +8,27 @@ import {
 } from "@/components/ui/breadcrumb";
 import React from "react";
 import type { ReactElement } from "react";
+import blogs from "@/data/blogs.json";
+import products from "@/data/products.json";
+
+export async function generateStaticParams() {
+  const paths = [
+    // Add paths for blogs
+    ...blogs.map((blog) => ({
+      all: ["blogs", blog.id.toString()],
+    })),
+    // Add paths for products
+    ...products.map((product) => ({
+      all: ["products", product.id.toString()],
+    })),
+    // Add other static paths
+    { all: ["blogs"] },
+    { all: ["products"] },
+    { all: ["faq"] },
+  ];
+
+  return paths;
+}
 
 export default async function BreadcrumbSlot(props: {
   params: Promise<{ all: string[] }>;

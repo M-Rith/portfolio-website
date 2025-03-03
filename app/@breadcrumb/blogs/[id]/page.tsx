@@ -6,6 +6,13 @@ import {
   BreadcrumbSeparator,
 } from "@/components/ui/breadcrumb";
 import blogs from "@/data/blogs.json";
+
+export async function generateStaticParams() {
+  return blogs.map((blog) => ({
+    id: blog.id.toString(),
+  }));
+}
+
 export default async function BreadcrumbSlot({
   params,
 }: {

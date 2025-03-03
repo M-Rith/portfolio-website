@@ -7,6 +7,7 @@ import {
 } from "@/components/ui/breadcrumb";
 import ProductData from "@/data/products.json";
 import { ProductTypes } from "@/types/products.type";
+
 export default async function BreadcrumbSlot({
   params,
 }: {
@@ -17,7 +18,6 @@ export default async function BreadcrumbSlot({
   const product = ProductData.find(
     (product: ProductTypes) => product.id === parseInt(id)
   );
-
 
   return (
     <BreadcrumbList>
@@ -36,4 +36,10 @@ export default async function BreadcrumbSlot({
       </BreadcrumbItem>
     </BreadcrumbList>
   );
+}
+
+export async function generateStaticParams() {
+  return ProductData.map((product) => ({
+    id: product.id.toString(),
+  }));
 }
