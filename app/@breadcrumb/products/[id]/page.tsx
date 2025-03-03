@@ -37,9 +37,3 @@ export default async function BreadcrumbSlot({
     </BreadcrumbList>
   );
 }
-
-export async function generateStaticParams() {
-  return ProductData.map((product) => ({
-    id: product.id.toString(),
-  }));
-}
