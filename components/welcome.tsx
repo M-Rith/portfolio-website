@@ -105,6 +105,7 @@ export default function WelcomeComponent() {
             </>
           ),
         },
+
         {
           id: "skills",
           content: (

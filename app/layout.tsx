@@ -23,7 +23,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={` ${ubuntu.variable} antialiased section `}>
+      <body className={` ${ubuntu.variable} antialiased section bg-[#FOEBE3] `}>
         {breadcrumb}
         {children}
         <FooterComponent />
