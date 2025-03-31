@@ -2,7 +2,7 @@ import React from "react";
 
 interface TitleProps {
   title: string;
-  description: string;
+  description?: string;
   date?: string;
   type?: string;
   noIcon?: boolean;

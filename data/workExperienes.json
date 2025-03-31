@@ -1,0 +1,76 @@
+[
+  {
+    "id": 1,
+    "company": "Bikay, Cambodia",
+    "position": [
+      {
+        "id": 1,
+        "name": "Mobile Developer",
+        "date": "Oct 2022 - PRESENT",
+        "type": "Internship",
+        "jobResponsible": [
+          "Develop an MVP Application: Build an MVP applications for Android and IOS using Flutter and GetX",
+          "Basic UX/UI Design : Design foundational UX/UI elements to enhance user experience.",
+          "Code Review : Conduct reviews code to ensure code quality, maintainability, and best practices."
+        ],
+        "technologyStack": ["Flutter", "GetX", "Figma", "Firebase"]
+      },
+      {
+        "id": 2,
+        "name": "Mobile Developer",
+        "date": "Oct 2022 - PRESENT",
+        "type": "Part Time",
+        "jobResponsible": [
+          "Develop and Maintain Mobile Applications : Build and manage mobile applications for Android and iOS using React Native and MobX.",
+          "Weekly Release Management : Oversee Mobile Application / Website Application releases on a weekly basis and handle any hot-fixes as needed.",
+          "Bug Fixing and Performance Optimization : Address bugs and work to improve overall application performance.",
+          "Facilitate Scrum and Collaboration : Lead daily scrum meetings, clean code sessions, and pair programming with fellow developers.",
+          "Code Review : Conduct reviews code to ensure code quality, maintainability, and best practices.",
+          "Cross-Functional Team Collaboration : Partner with a diverse team to define and release new features across mobile apps, web, and backend applications in an agile setting."
+        ],
+        "technologyStack": ["React Native", "MobX", "Figma"]
+      },
+      {
+        "id": 3,
+        "name": "Full Stack Developer",
+        "date": "Oct 2022 - PRESENT",
+        "type": "Full Time",
+        "jobResponsible": [
+          "Develop and Maintain Mobile Applications : Build and manage mobile applications for Android and iOS using React Native and MobX.",
+          "Website Development and Maintenance : Create and maintain websites using WordPress and Next.js.",
+          "Basic UX/UI Design : Design foundational UX/UI elements to enhance user experience.",
+          "Weekly Release Management : Oversee Mobile Application / Website Application releases on a weekly basis and handle any hot-fixes as needed.",
+          "Bug Fixing and Performance Optimization : Address bugs and work to improve overall application performance.",
+          "Facilitate Scrum and Collaboration : Lead daily scrum meetings, clean code sessions, and pair programming with fellow developers.",
+          "Code Review : Conduct reviews code to ensure code quality, maintainability, and best practices.",
+          "Cross-Functional Team Collaboration : Partner with a diverse team to define and release new features across mobile apps, web, and backend applications in an agile setting."
+        ],
+        "technologyStack": [
+          "React Native",
+          "Next.js",
+          "Tailwind CSS",
+          "TypeScript",
+          "React",
+          "Wordpress",
+          "Shadcn/UI",
+          "MobX",
+          "Zustand"
+        ]
+      }
+    ],
+    "date": "Oct 2022 - PRESENT",
+    "description": "BiKay is a global IT start-up (French Tech Cambodge community), founded in 2013 by 2 French IT engineers located in Phnom Penh. Bikay provides IT services & consulting to their clients & partners (outsourcing with its clients in France) in web development, mobile/web applications, and business solutions.",
+    "highlights": [
+      "Develop and Maintain Mobile Apps",
+      "Website Development and Maintenance",
+      "Basic UX/UI Design",
+      "Weekly Release Management",
+      "Bug Fixing and Performance Optimization",
+      "Facilitate Scrum and Collaboration",
+      "Cross-Functional Team Collaboration",
+      "Code Review",
+      "Develop and Maintain Mobile Applications",
+      "Develop an MVP Application"
+    ]
+  }
+]

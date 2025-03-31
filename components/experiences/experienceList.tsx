@@ -36,19 +36,31 @@ export default function ExperienceList({ experience }: ExperienceListProps) {
     <div>
       <Title
         title={experience.company}
-        description={experience.position}
+        description={experience.description}
         date={experience.date}
-        type={experience.type}
+        // type={experience.type}
       />
-      <p className="text-sm pt-2.5 text-[#71717A]">
-        <HighlightedText
-          text={experience.description}
-          highlights={experience.highlights}
-        />
-      </p>
+
+      {/* Each Position */}
+      <div className="border-l-2 border-gray-200 ml-2">
+        {[...experience.position].reverse().map((position) => (
+          <div key={position.id} className="flex items-center py-2.5">
+            <div className="w-2 h-2 bg-gray-200 rounded-full -ml-[5px]"></div>
+
+            <div className="ml-5">
+              <Title
+                title={position.name}
+                description={position.date}
+                type={position.type}
+                noIcon={true}
+              />
+            </div>
+          </div>
+        ))}
+      </div>
 
       {/* Responsibilities */}
-      <div className="flex flex-col pt-2.5">
+      {/* <div className="flex flex-col pt-2.5">
         <p className="text-sm font-bold">Responsibilities</p>
         <div className="flex flex-col pt-2.5">
           <ul className="list-disc pl-4">
@@ -62,17 +74,17 @@ export default function ExperienceList({ experience }: ExperienceListProps) {
             ))}
           </ul>
         </div>
-      </div>
+      </div> */}
 
       {/* Technology Stacks */}
-      <div className="flex flex-col pt-2.5">
+      {/* <div className="flex flex-col pt-2.5">
         <p className="text-sm font-bold">Technology Used</p>
         <div className="flex flex-row gap-2 flex-wrap pt-2.5">
           {experience.technologyStack.map((technology) => (
             <TechnologyCard key={technology} technology={technology} />
           ))}
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
