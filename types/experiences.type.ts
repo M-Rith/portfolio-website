@@ -5,6 +5,7 @@ export interface ExperienceTypes {
   date: string;
   description: string;
   highlights: string[];
+  location?: string;
 }
 
 interface Position {
@@ -12,6 +13,7 @@ interface Position {
   name: string;
   date: string;
   type: string;
+  description?: string;
   jobResponsible: string[];
   technologyStack: string[];
 }
