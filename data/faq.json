@@ -6,18 +6,18 @@
    },
    {
       "id": 2,
-      "question": "What IDE do you use?",
-      "answer": "I use Cursor IDE."
+      "question": "What tool do you use to code?",
+      "answer": "I use NeoVim."
    },
    {
       "id": 3,
-      "question": "Theme I use in Cursor?",
-      "answer": "I use Ayu Theme."
+      "question": "Theme I use in NeoVim?",
+      "answer": "I use NightFox theme in NeoVim."
    },
    {
       "id": 4,
-      "question": "Font I use in Cursor?",
-      "answer": "I use JetBrains Mono font in Cursor."
+      "question": "Font I use in NeoVim?",
+      "answer": "I use JetBrains Mono font in NeoVim."
    }, 
    {
       "id": 5,
