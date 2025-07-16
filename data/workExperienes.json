@@ -1,5 +1,27 @@
 [
   {
+    "id": 4,
+    "company": "Achievement Corporation",
+    "date": "May 2025 - Present",
+    "description": "Achievement Corporation (アチーブメント株式会社) is a Tokyo-based consulting and personal development firm founded in 1987. With a strong focus on both individual growth and organizational transformation, the company delivers evidence-based training, coaching, and leadership development programs. By combining psychological theory with practical tools, Achievement Corporation helps clients improve performance, achieve goals, and build lasting success. Its mission is to support people in realizing their full potential—professionally and personally—through structured, results-driven approaches trusted by business leaders, educators, and athletes across Japan.",
+    "location": "Tokyo Japan",
+    "position": [
+      {
+        "id": 1,
+        "name": "Full Stack Developer",
+        "date": "May 2025 - Present",
+        "type": "Full Time",
+        "jobResponsible": [
+          "Develop and maintain in house products",
+          "Facilitate Scrum and Collaboration : Lead daily scrum meetings, clean code sessions, and pair programming with fellow developers.",
+          "Code Review : Conduct reviews code to ensure code quality, maintainability, and best practices.",
+          "Cross-Functional Team Collaboration : Partner with a diverse team to define and release new features across mobile apps, web, and backend applications in an agile setting."
+        ],
+        "technologyStack": ["Vue", "Laravel"]
+      }
+    ]
+  },
+  {
     "id": 1,
     "company": "Bikay, Cambodia",
     "position": [
