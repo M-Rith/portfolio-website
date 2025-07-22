@@ -2,9 +2,7 @@
   {
     "id": 4,
     "company": "Achievement Corporation",
-    "date": "May 2025 - Present",
-    "description": "Achievement Corporation (アチーブメント株式会社) is a Tokyo-based consulting and personal development firm founded in 1987. With a strong focus on both individual growth and organizational transformation, the company delivers evidence-based training, coaching, and leadership development programs. By combining psychological theory with practical tools, Achievement Corporation helps clients improve performance, achieve goals, and build lasting success. Its mission is to support people in realizing their full potential—professionally and personally—through structured, results-driven approaches trusted by business leaders, educators, and athletes across Japan.",
-    "location": "Tokyo Japan",
+
     "position": [
       {
         "id": 1,
@@ -19,6 +17,25 @@
         ],
         "technologyStack": ["Vue", "Laravel"]
       }
+    ],
+    "date": "May 2025 - Present",
+    "description": "Achievement Corporation (アチーブメント株式会社) is a Tokyo-based consulting and personal development firm founded in 1987. With a strong focus on both individual growth and organizational transformation, the company delivers evidence-based training, coaching, and leadership development programs. By combining psychological theory with practical tools, Achievement Corporation helps clients improve performance, achieve goals, and build lasting success. Its mission is to support people in realizing their full potential—professionally and personally—through structured, results-driven approaches trusted by business leaders, educators, and athletes across Japan.",
+    "location": "Tokyo Japan",
+    "highlights": [
+      "Develop and Maintain Mobile Applications",
+      "Develop and Maintain Web Applications",
+      "Basic UX/UI Design",
+      "Requirement Gathering",
+      "Weekly Meeting with management",
+      "Bug Fixing and Performance Optimization",
+      "Task management",
+      "Team meeting",
+      "Code Review",
+      "Cross-Functional Team Collaboration",
+      "Requirement Analysis",
+      "Internship Program",
+      "Booking System",
+      "Shuttle Bus Service"
     ]
   },
   {
