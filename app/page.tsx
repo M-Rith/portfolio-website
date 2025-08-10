@@ -1,8 +1,10 @@
 "use client";
+import AwardComponent from "@/components/award";
 import EducationComponent from "@/components/education";
 import ExperienceComponent from "@/components/experiences";
 import ProductsComponent from "@/components/products";
 import WelcomeComponent from "@/components/welcome";
+
 import { motion, useScroll } from "framer-motion";
 import { useState, useEffect } from "react";
 import { TbArrowNarrowUp } from "react-icons/tb";
@@ -49,6 +51,8 @@ export default function Home() {
       <ExperienceComponent />
       <hr className="my-10  border-black" />
       <EducationComponent />
+      <hr className="my-10  border-black" />
+      <AwardComponent />
 
       {showScrollTop && (
         <div className="fixed bottom-20 right-6 flex flex-col items-center justify-center">

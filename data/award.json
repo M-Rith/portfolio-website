@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "competition": "UnipreneurCamp",
+    "date": "July 2024 - July 2024",
+    "ranking": "Top 5th places",
+    "description": "UnipreneurCamp is a startup competition for university students across Cambodia, where participants pitch innovative business ideas to a panel of judges. The competition identifies and selects the most promising ideas with market potential, requiring teams to present a real demo of their application—not just UX/UI designs, but a functional MVP.",
+    "category": ["Startup"]
+  },
+  {
+    "id": 2,
+    "competition": "CSCUP 2023",
+    "date": "Sep 2023 - Oct 2023",
+    "ranking": "Top 2nd place",
+    "description": "Cambodia CS Cup is an annual competitive programming competition for high school and university students in Cambodia. The contest consists of four rounds of challenges, held from 24 September 2023 to 22 October 2023, where participants compete to showcase their problem-solving and coding skills.",
+    "category": ["Coding"]
+  },
+  {
+    "id": 3,
+    "competition": "Key performance members for “Shuttle bus management system project”",
+    "date": "Sep 2023 ",
+    "ranking": "Top 1st Place",
+    "description": "Key Performance Members – Shuttle Bus Management System Project Developed under the University’s Incubation Center, this project aimed to enhance campus transportation with high usage and an excellent user experience. Key Performance Members were selected based on their outstanding contributions, problem-solving skills, and commitment to delivering a functional, impactful solution.",
+    "category": ["Coding"]
+  },
+  {
+    "id": 4,
+    "competition": "Turning Hackathon inspiration to digital innovation cycle 4",
+    "date": "Turnin Hackathon – Inspiration to Digital Innovation (Cycle 4) is a startup competition open to anyone looking to transform their business idea into a real startup. Participants work intensively over the hackathon period to develop, validate, and prototype their concepts, receiving mentorship and guidance from industry experts. The program aims to foster innovation, encourage entrepreneurship, and prepare teams to bring their solutions to market.",
+    "ranking": "Top 8th Place",
+    "description": "March 2023",
+    "category": ["Startup"]
+  },
+  {
+    "id": 5,
+    "competition": "CSCUP 2022",
+    "date": "Sep 2022 - Oct 2022",
+    "ranking": "Top 10th place",
+    "description": "Cambodia CS Cup is an annual competitive programming competition for high school and university students in Cambodia. The contest consists of four rounds of challenges, held from 24 September 2023 to 22 October 2023, where participants compete to showcase their problem-solving and coding skills.",
+    "category": ["Coding"]
+  },
+  {
+    "id": 6,
+    "competition": "build on Cambodia AWS",
+    "date": "May 2022 - May 2022",
+    "ranking": "Top 4th place",
+    "description": "Build On Cambodia – AWS: Competed in a FinTech-focused hackathon organized by AWS Cloud Services, developing an innovative banking mobile application fully integrated with AWS technologies. Demonstrated cloud-based architecture design, secure financial transaction handling, and scalable app deployment within the competition timeframe.",
+    "category": ["Coding"]
+  }
+]

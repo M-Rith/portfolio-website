@@ -27,7 +27,11 @@ import {
   SiShadcnui,
   SiCodewars,
 } from "react-icons/si";
-import { RiBearSmileFill } from "react-icons/ri";
+import {
+  RiBearSmileFill,
+  RiComputerLine,
+  RiSuitcaseLine,
+} from "react-icons/ri";
 import { BiLogoPlayStore } from "react-icons/bi";
 import { JSX } from "react";
 
@@ -62,6 +66,8 @@ export const getTechIcon = (tech: string) => {
     resume: <TbFileCv className="text-md" />,
     blog: <TbBrandBlogger className="text-md" />,
     laravel: <TbBrandLaravel className="text-md" />,
+    coding: <RiComputerLine className="text-md" />,
+    startup: <RiSuitcaseLine className="text-md" />,
   };
 
   return iconMap[normalizedTech] || null;
