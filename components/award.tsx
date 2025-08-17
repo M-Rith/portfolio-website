@@ -44,6 +44,7 @@ export default function AwardComponent() {
             title={award.competition}
             description={award.description}
             date={award.date}
+            type={award.ranking}
           />
           <div className="flex flex-row gap-2 flex-wrap pt-2.5">
             {award.category.map((category) => (
